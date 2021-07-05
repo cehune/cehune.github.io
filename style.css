@@ -1,5 +1,5 @@
 html{
-  font-size: 16px;
+  font-size: 100%;
   
 }
 
@@ -54,10 +54,18 @@ body{
   display: block;
   color: black;
   text-align: right;
-  text-decoration: none;
+ 
   font-size: 17px;
   z-index: 3;
 }
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: #D7E3C1 ;
+}
+
 .dropdown {
   
   overflow: visible;
@@ -112,6 +120,11 @@ body{
   .navbarlinks .gallery2, .navbarlinks .commisions2{display: none;}
   .dropdownmenu{
     display: block;
+    
+  }
+  .dropdowncontent{
+    left: auto !important;
+    right: 20px !important;
   }
 }
 
@@ -120,7 +133,11 @@ body{
   .navbarlinks .gallery, .navbarlinks .commisions{display: none;}
   .dropdownmenu{
     display: block;
+  }.dropdowncontent{
+    left: auto !important;
+    right: 20px !important;
   }
+   
 }
 .dropdown:hover .dropdowncontent {display: block;}
 .dropdown:hover .dropdownmenu {background-color: #E39696 ;}
@@ -135,22 +152,82 @@ body{
  
 }
 .introflex{
-  
+  display: flex;
   float: center;
   padding-left: 20%;
-  padding-right: 20%
+  padding-right: 20%;
+  overflow: visible;
 
 }
 .introTitle{
   font-family: 'Lato', sans-serif;
   color: black ;
   text-align: center;
-  font-size: 4rem;
+  font-size: 2.75rem;
+  font-weight: bold;
 }
 
 p{
   font-family: 'Cabin', sans-serif;
-  font-size: 2rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.featured-image-intro{
+  width: 40%;
+  padding-left: 20px;
+  
+  height: auto;
+  object-fit: cover;
+}
+
+
+/* When the Browser gets too small, the paragraphs will center. */
+@media screen and (max-width: 1000px)and (min-width:601px) {
+  p{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 300;
+  }.introtitle{
+    font-size: 2.5rem;
+  }.introflex{
+  
+  float: center;
+  padding-left: 10%;
+  padding-right: 10%
+
+}
+.featured-image-intro{
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: auto;
+    object-fit: cover;
+    float: center
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p{
+    font-size: 0.75rem;
+    text-align: center;
+    font-weight: 300;
+  }
+  .introtitle{
+    font-size: 2rem;
+  }.introflex{
+  
+  float: center;
+  padding-left: 10%;
+  padding-right: 10%
+}
+.featured-image-intro{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: auto;
+    object-fit: cover;
+  }
 }
 
 @media only screen and (max-width: 1000px){
@@ -158,9 +235,37 @@ p{
     display: flex;
     flex-direction: column;
   }
+  
 }
 
 
+
+
+
+
+
+footer{
+  background-color: #3D3D3D;
+  max-height: 200px;
+  bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  margin-top: 50px;
+  
+
+}
+.footerLink{
+  color: white;
+  padding-top:2rem;
+  
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  
+}
 
 
 
