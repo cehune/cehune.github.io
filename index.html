@@ -1,89 +1,93 @@
 <!DOCTYPE html>
 <html>
-  <head>
 
-    <!--My Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lato:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
-
-    <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/2213c43ad8.js" crossorigin="anonymous"></script>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
 
 
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Lost Herons Art</title>
+    <title>McKale Chung</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
 
   <body>
     <script src="script.js"></script>
-        <!--First Main Image -->
 
-        
-        <!--Navigation bar, will be the same for every page. Clicking on the same page that youre on will send you back to the top. -->
-     
-       
-        <div class = 'navbar'>
-          <h2 class = 'name' id='top'><a href='index.html'> LOSTHERONS </a></h2>
-          
-          <div class='navbarlinks' id='navbarlinks'>
-          <h3 class='gallery' ><a href='#gallery'>Gallery</a> </h3>
-          <h3 class='commisions'><a>Commisions</a> </h3>
-          <h3 class='projects'><a>Projects</a> </h3>
-          <h3 class='engineering' ><a href='engineering.html'>Engineering</a></h3><h3 class='about'><a>About</a> </h3>
-          <h3 class='contact'><a>Contact</a> </h3>
-          
-
-          <!--This is for website responsiveness. When the screen is small enough, a button using the fa fa la table icon will appear, creating a drop down menu to access these items.  You might notice, the classes are different here. That is because we need to get rid of the headers in the navbar itself, but displya the headers in the drop down table.-->
-      <div class='dropdown'>
-          <button class='dropdownmenu'><i class="fa fa-bars"></i> </button>
-          <div class='dropdowncontent'>
-            <h3 class='gallery2' ><a href='#gallery'>Gallery</a> </h3>
-          <h3 class='commisions2' href='#commisions'><a>Commisions</a> </h3>
-          <h3 class='projects2'href='#projects'><a>Projects</a> </h3>
-          <h3 class='engineering2'href='#engineering'><a>Engineering</a></h3><h3 class='about2'href='#about'><a>About</a> </h3>
-          <h3 class='contact2' href='#contact'><a>Contact</a> </h3>
-          </div>
-
+    <nav class="navbar" >
+        <div class='brand-title'><a href="#home" class="active">Mckale <strong>Chung</strong> </a></div>
+          <a onclick='showDropDown()' href='#' class='toggle-button'>
+            <i  id='fafa'class="fa fa-bars"></i>
+          </a>
+       <div class='navbar-links' id='navbar-links'>
+         <ul>
+          <li><a class='sidenav' href="./digitalart.html">Digital Art</a></li>
+          <li><a class='sidenav' href="./projects.html">Projects</a></li>
+          <li><a class='sidenav navcomputer' href="./about.html">About</a></lI>
+          <li><a class='sidenav     navcomputer' href="./contacts.html">Contact</a></li>
+        </ul>
       </div>
-    </div> 
-       
-  </div>
-  <img src='https://i.imgur.com/lXkHHJz.png' class='mainImage'>
-  <hr>
-
-
-  <div class='introduction'>
-    <h2 class='introTitle'>So, <strong>Who</strong> Am I?</h2>
-    <div class='introflex'>
-    <p> 
-      <strong>Hello, Im McKale.</strong> 
-      <br><br>
-     Im an amateur digital artist, and am currently coding this website together! A lot of this site will be incomplete or missing, so I apologize for the inconvenience. Feel free to try any of the navlinks to learn more about me!(Don't because none of them work right now) 
-        <br><br>
-        Soon Ill have the gallery up so you can see the painting nonsense that I make!
-        <br> <br>
-      You might notice that some drawings have different signatures. I have simply been indecisive in choosing names. 
-    </p>
-    <img src='https://i.imgur.com/rVNBWYR.png' class='featured-image-intro'>
+    </nav>
+    <div class='main-body'>
+      <h1> <span class='highlight-2'>&lt;h1&gt;</span>Hello, Im <span class='highlight'>Mckale Chung</span>.<span class='highlight-2'>&lt;/h1&gt;</span> </h1>
+      <p class = 'intro'> Im a 12th grade student, amateur artist, and aspiring enginner. I love both cows and cats. Click around to see some of my coding projects or digital illustrations.
     </div>
-  </div>
+    <div class='box-links'>
+      <h2 class='portfolio'>// Portfolio</h2>
+        <div class='portfolio-titles'>
+          
+          
+        </div>
 
-  <div>
-    
-  </div>
-
-
-  
-      
-
-    
+        <div class='box-link-images'>
+          <div class='illustrations-box'>
+            
+             <a href='./digitalart.html'> 
+              <img class='illustrations-featured' src='https://i.imgur.com/xVcrL3K.png'>
+            </a>
+            <div class='illustrations-box2'>
+              <h3 class='illustrations'>Illustrations</h3>
+              <p class='intro2'>Im an amateur artist and primarily make digital art. Click the image above to see my illustrations. I have both an instagram and website dedicated to my art</p>
+            </div>
+          </div>
+          <div class='projects-box'>
+            <a href='./projects.html'>
+              <img class='projects-featured' src="https://i.imgur.com/jZ4ldeP.png">
+            </a>
+            <div class='projects-box2'>
+              <h3 class='projects'>Coding</h3>
+              <p class='intro2'>I've been learning to code with codecademy over the last 8 months. As I continue to learn and grow, I'll update this website and my github with the various coding projects I complete.</p>
+            </div>
+          
+          </div>
+          <div class='competitions-box'>
+            <a href='./projects.html'>
+              <img class='competitions-featured' src="https://scontent.fyyc3-1.fna.fbcdn.net/v/t1.6435-9/146106984_347220036332158_1693111850192624457_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=973b4a&_nc_ohc=7BarOgM13XMAX9oBopt&_nc_ht=scontent.fyyc3-1.fna&oh=64f4086f3ede20d0fce2d2e7924b53c3&oe=61450888">
+            </a>
+            <div class='competitions-box2'>
+              <h3 class='competitions'>Competitions</h3>
+              <p class="intro2">I like competing in hackathons and other tech-related competitions. Similar to the left/above, I will be updating this site with any other interesting tech projects I work in. </p>
+            </div>
+          </div>
+      </div>
+    </div>
   </body>
   <footer>
-      <h3 class='center' ><a class='footerLink'target='_blank'href='https://www.instagram.com/lostherons/'> Instagram </a><h3>
-    </footer>
+    <div class='footer-icons'>
+      <a href="https://www.instagram.com/lostherons/"><i class="fab fa-instagram"></i></a>
+      <a href="https://lostheronsart.mckale.repl.co/"><i class="fas fa-paint-brush"></i></a>
+      <a href="https://www.linkedin.com/in/mckale-chung-507b22202/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/mckalechung"><i class="fab fa-github"></i></a>
+      <a href="mailto: mckale.chung@gmail.com" class="email"> <i class="fas fa-envelope"></i></a>
+      
+    </div>
+  </footer>
 </html>
