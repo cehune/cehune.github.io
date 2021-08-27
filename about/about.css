@@ -1,0 +1,225 @@
+html{
+    font-size: 100%;
+    
+  }
+  
+  body{
+    padding:0;
+      margin:0;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+  
+  
+  .navbar {
+    position: fixed;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    z-index: 5;
+    width: 100%;
+    
+  
+  }
+  
+  .navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .navbar-links li{
+    list-style: none;
+  }
+  
+  .brand-title a{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+  
+    text-decoration: none;
+    color: white;
+  }
+  .brand-title{
+    margin: 1rem;
+  }
+  .brand-title a:hover{
+    color: #E4C1EF ;
+  }
+  
+  .navbar-links li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding: 1rem;
+    display: block;
+    
+  }
+  .navbar-links li:hover{
+    background-color: #ADCDDD ;
+  }
+  
+  .toggle-button{
+    display: none;
+    position: absolute;
+    right: 1rem;
+    width: 1rem
+  }
+  
+  .fa{
+    color: white;
+  }
+  
+  @media screen and (max-width: 800px){
+    .toggle-button{
+      display: block;
+      top: 1.5rem;
+    }
+    .navbar-links{
+      display: none;
+     width: 100%;
+    }
+    .navbar{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .navbar-links ul{
+      flex-direction: column;
+      width: 100%;
+    }
+    .navbar-links li a{
+      padding: 0.5rem 1rem;
+    }
+    .navbar-links.active{
+      display:flex;
+    }
+  }
+  
+  .fa-bars{
+    color: white;
+    transition: color 250ms linear;
+  }
+  .fa-bars:hover{
+    color: #E4C1EF ;
+  }
+  .fa-times{
+  color: #EE7B93  ;
+  transition: color 250ms linear;
+  }
+  .fa-times:hover{
+    color: #CDBAF9;
+  }
+  
+  .intro-title{
+    background-color: #333;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  hr{
+    margin: 0px 30%;
+  }
+  
+  h1{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    padding-bottom: 1rem;
+    
+  }
+  
+  
+  .intro-p{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding: 4rem 20%;
+    letter-spacing: 1px;
+  }
+  
+  h2{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 2rem;
+  }
+  
+  .certifications{
+    background-color: #ECECEC;
+  }
+  .certification-lists{
+    display: flex;
+    justify-content: center;
+  
+  }
+  .certification-lists li a{
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .certification-lists li{
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .certification-lists ul {
+    padding-bottom: 3rem;
+  }
+  
+   .certification-lists a:hover{
+    color: blue;
+  }
+  
+  
+  @media screen and (max-width: 1000px){
+    .intro-p{
+      padding: 2rem 10%;
+    }
+    h1{
+      font-size: 3rem;
+      padding-bottom: 0rem;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .footer{
+    display: flex;
+    
+  }
+  .footer-icons{
+    display: flex;
+     background-color: #333;
+     padding-top: 2rem;
+     justify-content: center;
+     padding-bottom: 2rem;
+     
+  }
+  
+  
+  
+  .fa-paint-brush, .fa-instagram, .fa-github, .fa-linkedin, .fa-envelope{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    
+    transition: color 500ms linear;
+  }
+  .fa-paint-brush:hover, .fa-instagram:hover, .fa-github:hover, .fa-linkedin:hover, .fa-envelope:hover{
+    color: #BBEFEA;
+  }
