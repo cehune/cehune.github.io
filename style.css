@@ -14,12 +14,14 @@ body{
 
 
 .navbar {
-  overflow: hidden;
+  position: fixed;
   background-color: #333;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: white;
+  z-index: 5;
+  width: 100%;
 
 }
 
@@ -52,6 +54,7 @@ body{
   font-family: 'Lato', sans-serif;
   padding: 1rem;
   display: block;
+  
 }
 .navbar-links li:hover{
   background-color: #ADCDDD ;
@@ -93,19 +96,34 @@ body{
   }
 }
 
+.fa-bars{
+  color: white;
+  transition: color 250ms linear;
+}
+.fa-bars:hover{
+  color: #E4C1EF ;
+}
+.fa-times{
+color: #EE7B93  ;
+transition: color 250ms linear;
+}
+.fa-times:hover{
+  color: #CDBAF9;
+}
+
 .main-body{
   background-color: #333;
-  min-height: 22rem;
-  padding-top: 1rem;
+  min-height: 30rem;
+  padding-top: 4rem;
   
 }
 
 h1{
   font-family: 'Lato', sans-serif;
   color: white;
-  padding-left: 5rem;
-  font-size: 3rem;
-  padding-top: 1rem;
+  text-align:center;
+  font-size: 4rem;
+  padding-top: 3rem;
 }
 .highlight{
   color: #BBEFEA ;
@@ -121,15 +139,17 @@ h1{
   font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 1.5rem;
-  padding-left: 5rem;
-  padding-right: 30%;
-  padding-bottom: 2rem;
+  text-align: center;
+  padding: 2rem 20%;
+  
+}
+hr{
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
-
-
 h2{
-  padding-top: 1rem;
+  font-weight: bold;
 }
 h3{
   
@@ -143,7 +163,8 @@ h3{
   font-family: 'Lato', sans-serif;
   font-size: 2rem;
   text-align: center;
-  padding-top: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 
