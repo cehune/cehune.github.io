@@ -55,6 +55,7 @@ html{
     font-family: 'Lato', sans-serif;
     padding: 1rem;
     display: block;
+    
   }
   .navbar-links li:hover{
     background-color: #ADCDDD ;
@@ -112,23 +113,22 @@ html{
   }
   
   
+  input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  .contact-form{
+    padding-top: 5rem;
+      border-radius: 5px;
+    background-color: #f2f2f2;
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  }
   
   
   

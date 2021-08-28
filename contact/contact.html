@@ -15,7 +15,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>McKale Chung</title>
-    <link href="./resume.css" rel="stylesheet" type="text/css" />
+    <link href="./contact.css" rel="stylesheet" type="text/css" />
   </head>
 
 
@@ -32,17 +32,40 @@
           <li><a class='sidenav' href="../digitalart/digitalart.html">Digital Art</a></li>
           <li><a class='sidenav' href="../projects/projects.html">Projects</a></li>
           <li><a class='sidenav' href="../resume/resume.html">Resume</a></li>
-          <li><a class='sidenav navcomputer' href="../about/about.html">About</a></lI>
+          <li><a class='sidenav navcomputer' href="#top">About</a></lI>
           <li><a class='sidenav     navcomputer' href="../contact/contact.html">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <div class='resume-section'>
-        <h1 class='resume-title'>Resume </h1>
-        <img class='resume' src="https://i.imgur.com/HTv0nxw.png" alt-text='resume'>
-      </div>
+    <section class='contact-form'>
+      <form action="https://formspree.io/f/mnqllawj" method="POST">
+      <h1>Contact</h1>
+      <p>Feel free to shoot me a message below!</p>
+        <label>
+          <input type = "text" name = "name" class="name" placeholder="Your Name">
+        </label>
+        <label>
+          <input name = "email" type = "text" class="email" placeholder="Your Email">
+        </label>
+        <label>
+          <input name = "subject" type = "text" class="subject" placeholder="Subject">
+        </label>
+        <label> 
+        <textarea name = "message" class="message" placeholder="Your Message" class = "Message"></textarea>
+        </label> 
+        <button type = "submit" >Send Message</button>
+    </form>
+    <a title='Unsplash.com image link' href="https://unsplash.com/photos/WHUDOzd5IYU">
+      <img class='contact-image' src='https://i.imgur.com/kSlSWJc.jpg' >
+    </a>
+    </section>
 
-  </body>
+
+
+
+
+      </body>
+
   <footer>
     <div class='footer-icons'>
       <a href="https://www.instagram.com/lostherons/" title="My Instagram"><i class="fab fa-instagram"></i></a>
@@ -50,6 +73,7 @@
       <a href="https://www.linkedin.com/in/mckale-chung-507b22202/" title='My LinkedIn'><i class="fab fa-linkedin"></i></a>
       <a href="https://github.com/mckalechung" title='My GitHub'><i class="fab fa-github"></i></a>
       <a href="mailto: mckale.chung@gmail.com" class="email" title='My Email'> <i class="fas fa-envelope"></i></a>
+      
     </div>
   </footer>
 </html>
