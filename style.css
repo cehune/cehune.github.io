@@ -148,13 +148,13 @@ hr{
   margin-right: 30%;
 }
 
-h2{
-  font-weight: bold;
-}
-h3{
+
+h4{
   
   font-family: 'Lato', sans-serif;
   text-align: center;
+  font-size: 1.5rem;
+  
 }
 
 
@@ -170,9 +170,10 @@ h3{
 
 .box-link-images{
   display: flex;
-  
   padding-bottom: 15rem;
 }
+
+/*The individual thirds */
 
 .projects-box, .competitions-box, .illustrations-box{
   max-width: 33.33%;
@@ -191,21 +192,23 @@ img:hover{
   opacity: 0.3;
 }
 
+/*The text of the description boxes*/
 .intro2{
   font-family: 'Raleway', sans-serif;
   text-align: center;
   font-weight: bold;
 }
+/*The divs of the title and the text in the description boxes*/
 .illustrations-box2{
-  padding: 2rem 1rem;
+  padding: 1rem 1rem 2rem 1rem;
   background-color: #EBDFFC;
 }
 .competitions-box2{
   background-color: #F6F1B5  ;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem 2rem 1rem;
 }
 .projects-box2{
-  padding: 2rem 1rem;
+  padding: 1rem 1rem 2rem 1rem;
   background-color: #C8E0F2 ;
 }
 
@@ -217,7 +220,7 @@ img:hover{
   }
   .box-link-images{
     display: block;
-      padding-bottom: 5rem;
+      padding-bottom: 2rem;
     padding-left: 10%;
     padding-right: 10%;
   }

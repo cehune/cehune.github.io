@@ -1,160 +1,234 @@
 html{
-    font-size: 100%;
-    
-  }
+  font-size: 100%;
   
-  body{
-    padding:0;
-      margin:0;
-  }
+}
+
+body{
+  padding:0;
+    margin:0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  position: fixed;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  z-index: 5;
+  width: 100%;
   
-  *{
-    box-sizing: border-box;
-  }
+
+}
+
+.navbar-links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar-links li{
+  list-style: none;
+}
+
+.brand-title a{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+
+  text-decoration: none;
+  color: white;
+}
+.brand-title{
+  margin: 1rem;
+}
+.brand-title a:hover{
+  color: #E4C1EF ;
+}
+
+.navbar-links li a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  padding: 1rem;
+  display: block;
   
-  
-  .navbar {
-    position: fixed;
-    background-color: #333;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    z-index: 5;
-    width: 100%;
-    
-  
-  }
-  
-  .navbar-links ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  .navbar-links li{
-    list-style: none;
-  }
-  
-  .brand-title a{
-    font-family: 'Lato', sans-serif;
-    font-size: 1.5rem;
-  
-    text-decoration: none;
-    color: white;
-  }
-  .brand-title{
-    margin: 1rem;
-  }
-  .brand-title a:hover{
-    color: #E4C1EF ;
-  }
-  
-  .navbar-links li a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    padding: 1rem;
-    display: block;
-    
-  }
-  .navbar-links li:hover{
-    background-color: #ADCDDD ;
-  }
-  
+}
+.navbar-links li:hover{
+  background-color: #ADCDDD ;
+}
+
+.toggle-button{
+  display: none;
+  position: absolute;
+  right: 1rem;
+  width: 1rem
+}
+
+.fa{
+  color: white;
+}
+
+@media screen and (max-width: 800px){
   .toggle-button{
+    display: block;
+    top: 1.5rem;
+  }
+  .navbar-links{
     display: none;
-    position: absolute;
-    right: 1rem;
-    width: 1rem
+   width: 100%;
   }
-  
-  .fa{
-    color: white;
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  @media screen and (max-width: 800px){
-    .toggle-button{
-      display: block;
-      top: 1.5rem;
-    }
-    .navbar-links{
-      display: none;
-     width: 100%;
-    }
-    .navbar{
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    .navbar-links ul{
-      flex-direction: column;
-      width: 100%;
-    }
-    .navbar-links li a{
-      padding: 0.5rem 1rem;
-    }
-    .navbar-links.active{
-      display:flex;
-    }
-  }
-  
-  .fa-bars{
-    color: white;
-    transition: color 250ms linear;
-  }
-  .fa-bars:hover{
-    color: #E4C1EF ;
-  }
-  .fa-times{
-  color: #EE7B93  ;
-  transition: color 250ms linear;
-  }
-  .fa-times:hover{
-    color: #CDBAF9;
-  }
-  
-  
-  input{
+  .navbar-links ul{
+    flex-direction: column;
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
   }
+  .navbar-links li a{
+    padding: 0.5rem 1rem;
+  }
+  .navbar-links.active{
+    display:flex;
+  }
+}
+
+.fa-bars{
+  color: white;
+  transition: color 250ms linear;
+}
+.fa-bars:hover{
+  color: #E4C1EF ;
+}
+.fa-times{
+color: #EE7B93  ;
+transition: color 250ms linear;
+}
+.fa-times:hover{
+  color: #CDBAF9;
+}
+
+.title{
+  padding-top: 5rem;
+}
+h1{
+  font-family: 'Lato', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+input{
+  width: 100%;
+  padding:  1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  margin-right: 1rem;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+textarea{
+  resize: vertical;
+  padding:  1rem;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact-form{
+  padding: 1rem 20% 2rem 20%;
+  border-radius: 5px;
+ 
+  display: flex;
+  overflow: hidden;
+  position: relative; 
+  justify-items: center;
+}
+
+.input-boxes{
+  width: 50%;
+}
+.contact-image{
+  width: 50%;
+  float:right;
+  
+}
+img{
+  width: 100%;
+  padding-left: 1rem;
+}
+
+.input-boxes button{
+  background-color: #ADCDDD;
+  width: 7rem;
+  height: 3rem;
+  margin-top: 1rem;
+  color: #5E5489 ;
+  font-weight: bold;
+}
+
+.input-boxes button:active{
+  color: white;
+  background-color: #46407A ;
+}
+
+@media screen and (max-width: 800px){
   .contact-form{
-    padding-top: 5rem;
-      border-radius: 5px;
-    background-color: #f2f2f2;
-  
+    flex-direction: column;
+    padding: 1rem 10% 2rem 10%;
+  }.contact-image{
+    width: 100%;
+    float:center;
+    padding-top: 1rem;
+  }img{
+    padding-left: 0rem;
+  } .input-boxes{
+    width: 100%;
   }
+}
+
+
+
+
+.footer{
+  display: flex;
+  bottom: 0rem;
   
+}
+.footer-icons{
+  display: flex;
+   background-color: #333;
+   padding-top: 2rem;
+   justify-content: center;
+   padding-bottom: 2rem;
+   
+}
+
+
+
+.fa-paint-brush, .fa-instagram, .fa-github, .fa-linkedin, .fa-envelope{
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
   
-  
-  .footer{
-    display: flex;
-    
-  }
-  .footer-icons{
-    display: flex;
-     background-color: #333;
-     padding-top: 2rem;
-     justify-content: center;
-     padding-bottom: 2rem;
-     
-  }
-  
-  
-  
-  .fa-paint-brush, .fa-instagram, .fa-github, .fa-linkedin, .fa-envelope{
-    color: white;
-    font-size: 2rem;
-    text-align: center;
-    padding: 1rem;
-    
-    transition: color 500ms linear;
-  }
-  .fa-paint-brush:hover, .fa-instagram:hover, .fa-github:hover, .fa-linkedin:hover, .fa-envelope:hover{
-    color: #BBEFEA;
-  }
+  transition: color 500ms linear;
+}
+.fa-paint-brush:hover, .fa-instagram:hover, .fa-github:hover, .fa-linkedin:hover, .fa-envelope:hover{
+  color: #BBEFEA;
+}
