@@ -113,7 +113,7 @@ transition: color 250ms linear;
 
 .main-body{
   background-color: #333;
-  min-height: 30rem;
+  min-height: 35rem;
   padding-top: 4rem;
   
 }
@@ -140,7 +140,7 @@ h1{
   color: white;
   font-size: 1.5rem;
   text-align: center;
-  padding: 2rem 20%;
+  padding: 3rem 20% 4rem 20%;
   
 }
 hr{
@@ -164,27 +164,38 @@ h4{
   font-size: 2rem;
   text-align: center;
   padding-top: 3rem;
-  padding-bottom: 2rem;
+  
+}
+.portfolio-p{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  padding: 0 20% 4rem 20%;
+
 }
 
 
 .box-link-images{
-  display: flex;
-  padding-bottom: 15rem;
+  display:flex;
+ padding-bottom: 12rem;
+ background-color: #333;
 }
+
+
+
 
 /*The individual thirds */
 
 .projects-box, .competitions-box, .illustrations-box{
   max-width: 33.33%;
   margin-bottom: 0;
+  
 }
 
 img{
-  object-fit: cover;
+  height: 80%;
   width: 100%;
-  height: 100%;
-  
+  object-fit: cover;
   max-width: 1000px;
   transition: opacity 500ms linear;
 }
@@ -200,29 +211,50 @@ img:hover{
 }
 /*The divs of the title and the text in the description boxes*/
 .illustrations-box2{
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 2rem 2rem 3rem 2rem;
   background-color: #EBDFFC;
+  margin-bottom: 2rem;
+
 }
 .competitions-box2{
   background-color: #F6F1B5  ;
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 2rem 2rem 3rem 2rem;
+   margin-bottom: 2rem;
+
 }
 .projects-box2{
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 2rem 2rem 3rem 2rem;
   background-color: #C8E0F2 ;
+   margin-bottom: 2rem;
+
 }
 
+@media screen and (min-width: 1200px){
+  .box-link-images{
+    padding-bottom: 8rem;
+  }
+}
 
+@media screen and (max-width: 1200px){
+  h1{
+    font-size: 3rem;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .main-body{
+  min-height: 30rem;
+}
+}
 
 @media screen and (max-width: 800px){
   h1{
     font-size: 2rem;
+   
   }
   .box-link-images{
     display: block;
       padding-bottom: 2rem;
-    padding-left: 10%;
-    padding-right: 10%;
+  
   }
   img{
     width: 100%;
@@ -230,6 +262,11 @@ img:hover{
   .projects-box, .competitions-box, .illustrations-box{
   max-width: 100%;
   margin-bottom: 0;
+}.intro{
+  padding: 2rem 10% 3rem 10%;
+  font-size: 1.20rem;
+}.main-body{
+  min-height: 25rem;
 }
 
 }
@@ -238,7 +275,9 @@ img:hover{
 
 .footer{
   display: flex;
-  
+  padding-top: 4rem;
+  z-index: 2;
+  position: absolute;
 }
 .footer-icons{
   display: flex;
@@ -246,7 +285,7 @@ img:hover{
    padding-top: 2rem;
    justify-content: center;
    padding-bottom: 2rem;
-   
+   z-index: 4;
 }
 
 
