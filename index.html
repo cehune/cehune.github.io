@@ -3,13 +3,13 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/2213c43ad8.js" crossorigin="anonymous"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
-
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
   <head>
     <meta charset="utf-8">
@@ -20,9 +20,9 @@
 
 
   <body>
-    <script src="script.js"></script>
+    <script src="mainscript.js"></script>
 
-    <nav class="navbar" >
+    <nav class="navbar nav-up"  id='navbar'>
         <div class='brand-title'><a href="#home" class="active" title='Redirect to the top !'>Mckale <strong>Chung</strong> </a></div>
           <a onclick='showDropDown()' href='#' class='toggle-button'>
             <i  id='fafa'class="fa fa-bars"></i>
@@ -37,13 +37,17 @@
         </ul>
       </div>
     </nav>
-    <div class='main-body'>
+    <div class='main-body' id='main-body'>
       <h1> <span class='highlight-2'>&lt;h1&gt;</span>Hello, Im Mckale Chung.<span class='highlight-2'>&lt;/h1&gt;</span> </h1>
       <hr>
       <h2 class = 'intro'> Im a 12th grade student, amateur artist, and aspiring enginner. Welcome to my website!</h2>
     </div>
     <div class='box-links'>
-      <h3 class='portfolio'>// Portfolio</h3>
+      <h3 class='portfolio ml10'>    
+        <span class="text-wrapper">
+           <span class="letters">Portfolio</span>
+        </span>
+      </h3>
       <p class='portfolio-p'> I create digital illustrations and coding projects in my free time. I love to think creatively, and these fields give the opportunity to do so. Competition and passion are large drivers for me. I'm constantly looking for valuable experiences to improve my technical skills, such as through hackathons. Please check out some of my illustrations, projects, or competition work below. </p>
         <div class='portfolio-titles'>
         </div>
@@ -73,7 +77,7 @@
           </div>
           <div class='competitions-box'>
             <a class='image-links' href='./projects/projects.html'>
-              <img id='competitions-featured'class='competitions-featured' src="https://scontent.fyyc3-1.fna.fbcdn.net/v/t1.6435-9/146106984_347220036332158_1693111850192624457_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=973b4a&_nc_ohc=7BarOgM13XMAX9oBopt&_nc_ht=scontent.fyyc3-1.fna&oh=64f4086f3ede20d0fce2d2e7924b53c3&oe=61450888">
+              <img id='competitions-featured'class='competitions-featured' src="https://i.imgur.com/6XVQ1Le.jpg">
             </a>
             <section class='competitions-box2'>
               <h4 class='competitions'>Competitions</h4>
@@ -85,11 +89,11 @@
   </body>
   <footer>
     <div class='footer-icons'>
-      <a href="https://www.instagram.com/lostherons/" title="My Instagram"><i class="fab fa-instagram"></i></a>
-      <a href="https://lostheronsart.mckale.repl.co/" title="My Art Website"><i class="fas fa-paint-brush"></i></a>
-      <a href="https://www.linkedin.com/in/mckale-chung-507b22202/" title='My LinkedIn'><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/mckalechung" title='My GitHub'><i class="fab fa-github"></i></a>
-      <a href="mailto: mckale.chung@gmail.com" class="email" title='My Email'> <i class="fas fa-envelope"></i></a>
+      <a href="https://www.instagram.com/lostherons/" target = '_blank' title="My Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://lostheronsart.mckale.repl.co/" target = '_blank'title="My Art Website"><i class="fas fa-paint-brush"></i></a>
+      <a href="https://www.linkedin.com/in/mckale-chung-507b22202/" target = '_blank'title='My LinkedIn'><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/mckalechung" target = '_blank'title='My GitHub'><i class="fab fa-github"></i></a>
+      <a href="mailto: mckale.chung@gmail.com"target = '_blank' class="email" title='My Email'> <i class="fas fa-envelope"></i></a>
     </div>
   </footer>
 </html>

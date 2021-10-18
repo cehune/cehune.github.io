@@ -14,7 +14,7 @@ body{
 
 
 .navbar {
-  position: absolute;
+  position: fixed;
   background-color: transparent;
   display: flex;
   justify-content: space-between;
@@ -85,7 +85,7 @@ body{
   .navbar{
     flex-direction: column;
     align-items: flex-start;
-    background-color: #333;
+
   }
   .navbar-links ul{
     flex-direction: column;
@@ -120,7 +120,49 @@ transition: color 250ms linear;
 
 .main{
   padding-bottom: 4rem;
+    
 }
+
+.title{
+    padding-top: 4rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url('https://i.imgur.com/KhnPSiP.png');
+  background-size: cover;
+  min-height: 28rem;
+}
+
+.handle{
+  font-family: 'Lato', sans-serif;
+  font-size: 3rem;
+  
+
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+
+  padding-top: 1rem;
+  padding-right: 20%;
+  padding-left: 20%;
+  
+  font-weight: bold;
+   
+   color: white;
+}
+
+
+h2{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: white;
+
+  width: 100%;
+  
+  padding-top: 2rem;
+}
+/*
 .main-image{
   width: 100%;
   z-index: -1;
@@ -129,7 +171,7 @@ transition: color 250ms linear;
   filter: brightness(75%);
 }
 
-/*This is all the stuff in the header*/
+/*This is all the stuff in the header*/ /*
 .title{
   position:relative; 
   overflow: hidden;
@@ -169,7 +211,7 @@ h2{
   width: 100%;
   position: absolute;
   top: 20rem;
-}
+}*/
 .redirect{
   color: #ECECEC;
   text-decoration: none;
@@ -183,62 +225,53 @@ h2{
 
 
 
-
 .gallery{
   padding-top: 1rem;
   padding-left: 10%;
   padding-right: 10%;
-}
-.column{
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr ;
-  grid-template-rows: auto;
-  grid-gap: 1rem;
+  display: flex;
 }
 
-.image-links{
-  padding: 1rem;
-  display: grid;
-  
+
+.column-1{
+  padding-right: 0.5rem;
+  width: 33.3%;
 }
- .image-links{
-    content: "";
-  padding-bottom: 100%;
-  display: block;
+.column-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 33.3%;
 }
- .image-links::before,
- img {
-  grid-area: 1 / 1 / 2 / 2;
+.column-3{
+  padding-left: 0.5rem;
+  width: 33.3%;
 }
+
 img{
   width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 @media screen and (max-width: 1200px){
   p{
-    top: 12rem;
-    left: 10%;
-    right: 10%;
-  }.column{
-    grid-template-columns: 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+  }.gallery{
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
 
 @media screen and (max-width: 600px){
-  .column{
+  .gallery{
     display: block;
+    padding: 0;
   }
-  .main-image{
-    height: 500px;
-  }.handle{
+  .column{
+    width: 100%;
+  }
+  .handle{
     font-size: 2rem;
-  }h2{
-    top: 22rem;
-  }.navbar{
-    position: fixed;
   }
 }
 

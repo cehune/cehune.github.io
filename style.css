@@ -15,15 +15,19 @@ body{
 
 .navbar {
   position: fixed;
-  background-color: #333;
+  background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: white;
   z-index: 5;
   width: 100%;
-
+  top: 0;
+  transition: background-color 200ms ease-in;
 }
+
+
+
 
 .navbar-links ul{
   margin: 0;
@@ -112,18 +116,37 @@ transition: color 250ms linear;
 }
 
 .main-body{
-  background-color: #333;
+  
+  
   min-height: 35rem;
   padding-top: 4rem;
+   background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('https://cdn.discordapp.com/attachments/689212878200242194/886722418062811156/image0.jpg');
+  background-size: cover;
+  transition: background 500 linear;
   
+  -webkit-animation: myfirst 3s ; /* Chrome, Safari, Opera */
+    animation: fadeIn 3s ;
 }
+
+
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0.2;}
+    to {opacity: 1;}
+  }
+
+  /* Standard syntax */
+  @keyframes fadeIn {
+    from {opacity: 0.2;}
+    to {opacity: 1;}
+  }
 
 h1{
   font-family: 'Lato', sans-serif;
-  color: white;
+  color: white ;
   text-align:center;
   font-size: 4rem;
   padding-top: 3rem;
+  
 }
 .highlight{
   color: #BBEFEA ;
@@ -163,14 +186,33 @@ h4{
   font-family: 'Lato', sans-serif;
   font-size: 2rem;
   text-align: center;
-  padding-top: 3rem;
+  padding-top: 4rem;
   
+}
+
+.ml10 {
+  position: relative;
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
 }
 .portfolio-p{
   font-family: 'Raleway', sans-serif;
   text-align: center;
   font-weight: bold;
-  padding: 0 20% 4rem 20%;
+  padding: 0 10% 5rem 10%;
 
 }
 
@@ -186,14 +228,14 @@ h4{
 
 /*The individual thirds */
 
-.projects-box, .competitions-box, .illustrations-box{
+.projects-box, .competitions-box{
   max-width: 33.33%;
   margin-bottom: 0;
   
 }
 
 img{
-  height: 80%;
+  height: 70%;
   width: 100%;
   object-fit: cover;
   max-width: 1000px;
@@ -211,19 +253,19 @@ img:hover{
 }
 /*The divs of the title and the text in the description boxes*/
 .illustrations-box2{
-  padding: 2rem 2rem 3rem 2rem;
-  background-color: #EBDFFC;
+  padding: 4rem 2rem 5rem 2rem;
+  background-color: white;
   margin-bottom: 2rem;
 
 }
 .competitions-box2{
   background-color: #F6F1B5  ;
-  padding: 2rem 2rem 3rem 2rem;
+  padding: 4rem 2rem 5rem 2rem;
    margin-bottom: 2rem;
 
 }
 .projects-box2{
-  padding: 2rem 2rem 3rem 2rem;
+  padding: 4rem 2rem 5rem 2rem;
   background-color: #C8E0F2 ;
    margin-bottom: 2rem;
 
