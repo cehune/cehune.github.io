@@ -1,9 +1,19 @@
 import React from 'react'
+import './navbar.scss'
 
-const navbar = () => {
+const Navbar = () => {
   return (
-    <div>navbar</div>
+    <div className='navbar'>
+      <div className="wrapper">
+          <div className="left">
+              <a href='#intro'> wondurous</a>
+          </div>
+          <div className="right">
+              
+          </div>
+      </div>
+    </div>
   )
 }
 
-export default navbar
+export default Navbar
