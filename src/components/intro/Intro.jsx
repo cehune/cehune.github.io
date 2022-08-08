@@ -6,9 +6,14 @@ const Intro = () => {
   return (
     <div className='intro' id='intro'>
       <div className="wrapper">
-        <h2>Hello! I'm </h2>
-        <h1>Celine Chung</h1>
+        <div className='greeting'><h2 className='hello'>Hello! </h2> <h2>I'm</h2> </div>
+        <h1> This is my name </h1>
+        <hr />
+        <h3> First year Mechatronics Engineering student at the University of Waterloo, Illustrator, and passionate Climber</h3>
         
+      </div>
+      <div className="iconContainer">
+        <a className='downArrow' href='#portfolio'><img src='assets/down arrow.png' alt=''/></a>
       </div>
          
     </div>

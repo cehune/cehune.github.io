@@ -1,10 +1,18 @@
 .intro{
     
-    display:flex;
+    /*
+        cyan: #C5F3FC 
+        blue: #C5D7FC
+        purple: #CEC5FC
+        pink: #EAC5FC, #FCC5F3
+        orqange: #FCC5D7
+    */
+
+    
     background: url('./backdrop 1.png');
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    max-height: 100vh;
     scrollbar-width: none; 
         &::-webkit-scrollbar{
             display:none;
@@ -12,36 +20,79 @@
     
         .wrapper {
             width:100%;
-            height:100%;
-            h2 {
-                font-size: 60px;
-                text-align:center;
-                color: white;
-                padding-top:5%;
-   
+            
+            .greeting {
+                width:100%;
+                display:flex;
+                padding-top:10%;
+                align-items: center;
+                justify-content: center;
+                h2{
+                    font-size: 50px;
+                    color: white;
+                    padding: 1vh;
+                    margin:0;
+                    
+                }
                 
+
+                .hello {
+                    color: #FCC5D7;
+                    font-size: 50px;
+                }
             }
             h1{
-                font-size: 60px;
+                font-size: 70px;
                 text-align: center;
                 color:white;
-                padding:10px;
+                padding: 1vhpx;
+                margin:0;
             }
             hr{
                 color:white;
                 margin-left: 30%;
                 margin-right: 30%;
+                margin-top: 3vh;
             }
     
             h3 {
                 font-size: 30px;
                 color:white;
-                padding:10px;
-            }
-            .downArrow {
+                padding:1vh 20%;
                 text-align: center;
-                font-size: 60px;
+                font-weight: 300;
+                
             }
+            
+        } .iconContainer {
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            margin:0;
+
+            .downArrow{
+                width: 13vh;
+                padding-top: 6vh;
+                display: block;
+                img{
+                    width: 100%;
+                    animation: arrowBlink 2s infinite;
+                }
+                @keyframes arrowBlink {
+                    50%{
+                        opacity: 0.2;
+                    }
+                    100%{ opacity: 1;}
+                    
+                }
+            }.downArrow:hover{
+                img{
+                    color: #FCC5D7;
+                    animation: none;
+                    width: 14vh;
+                }
+            }
+
         }
 
         
