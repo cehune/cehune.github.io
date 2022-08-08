@@ -5,15 +5,15 @@
   }
 
 .app {
-    height: 100vh;
+    
 
     
     .sections {
         width: 100%;
-        height: calc(100vh - 70px);
+        height: 100vh;
         background-color: lightgoldenrodyellow;
         position: relative;
-        top:70px;
+        top:0;
         scroll-snap-type: y mandatory;
         scroll-behavior: smooth;
         scrollbar-width: none; 
@@ -23,7 +23,7 @@
 
         > *{
             width: 100%;
-            height: calc(100vh - 70px);
+            height: 100vh;
             scroll-snap-align: start;
         }
     }
