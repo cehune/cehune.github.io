@@ -21,7 +21,11 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
             <li onClick={()=>setMenuOpen(false)}>
                 <a href='#contact'>Contact</a>
             </li>
+            <li>
+                <a href='assets/Mckale Chung Resume August 2022' > Resume</a>
+            </li>
         </ul>
+
 
     </div>
   )
