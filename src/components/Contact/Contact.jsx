@@ -20,22 +20,22 @@ const Contact = () => {
         </div>
         <div className="right">
             <div className="contactForm">
-                <form onSubmit={handleSubmit}>
-      
+                      <form action="https://formspree.io/f/mnqllawj" method="POST">
+                
                 <label>
-                   <input type = "text" name = "name" class="name" placeholder="Your Name" />
+                  <input type = "text" name = "name" class="name" placeholder="Your Name"/>
                 </label>
                 <label>
-                    <input name = "email" type = "text" class="email" placeholder="Your Email" />
-                 </label>
-                 <label>
-                    <input name = "subject" type = "text" class="subject" placeholder="Subject" />
-                 </label>
-                 <label> 
-                       <textarea name = "message" className="message" placeholder="Your Message"  rows='5' cols = '150'></textarea>
-                 </label> 
-                 <button type = "submit" disabled={state.submitting}>Send </button>
-                </form>
+                  <input name = "email" type = "text" class="email" placeholder="Your Email"/>
+                </label>
+                <label>
+                  <input name = "subject" type = "text" class="subject" placeholder="Subject"/>
+                </label>
+                <label> 
+                  <textarea name = "message" class="message" placeholder="Your Message" class = "Message" rows='5' cols = '150'></textarea>
+                </label> 
+              <button type = "submit" >Send </button>
+          </form>
             </div>
         </div>
     </div>
