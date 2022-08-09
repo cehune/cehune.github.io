@@ -20,23 +20,33 @@ body{
             width: 20%;
             height:100%;
             margin:0;
-            
+            @media (max-width: 800px) {
+                width: 33%;  
+            }
         }
         .columnTwo{
             width: 30%;
             height:100%;
             margin:0;
-            
+            @media (max-width: 800px) {
+                width: 33%;  
+            }
         }
         .columnThree{
             width: 30%;
             margin:0;
             height:100%;
+            @media (max-width: 800px) {
+                width: 33%;  
+            }
         }
         .columnFour{
             width: 20%;
             margin:0;
             height:100%;
+            @media (max-width: 800px) {
+                display: none;
+            }
         }
         a {
             margin: 0;
@@ -69,6 +79,12 @@ body{
         width:100%;
         top: 30%;
         margin: 0;
+        @media (max-width: 800px) {
+            font-size: 40px;  
+        }
+        @media (max-width: 1200px) and (min-width: 801px) {
+            font-size: 50px;
+        }
         
     }
 }
