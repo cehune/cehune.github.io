@@ -8,6 +8,7 @@ import About from './components/About/About'
 import Contact from './components/Contact/Contact'
 import Menu from './components/Menu/Menu'
 import './app.scss'
+
 import { useState } from 'react';
 
 const App = () => {
@@ -27,11 +28,10 @@ const App = () => {
             <div className="sections">
                 <Intro />
                 <Portfolio />
-                
                 <Illustration />
-              
-                <Contact />
+                <Contact className='contact'/>
             </div>
+     
        
     </div>
   )

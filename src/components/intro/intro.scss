@@ -1,3 +1,6 @@
+@import '../../global.scss';
+
+
 .intro{
     
     /*
@@ -7,6 +10,7 @@
         pink: #EAC5FC, #FCC5F3
         orqange: #FCC5D7
     */
+
 
     
     background: url('./backdrop 1.png');
@@ -25,8 +29,14 @@
         -ms-animation: fadein 4s; /* Internet Explorer */
          -o-animation: fadein 4s; /* Opera < 12.1 */
             animation: fadein 4s;
-        
-
+            padding: 0;
+            
+            @media (max-width: 800px) {
+                padding-top: 100px;
+            }
+            @media (max-width: 1200px) and (min-width: 801px) {
+                padding-top: 50px;
+            }
 
             
             .greeting {
@@ -40,6 +50,9 @@
                     color: white;
                     padding: 1vh;
                     margin:0;
+                    @media (max-width: 800px) {
+                        font-size: 40px;
+                    }
                     
                 }
                 
@@ -47,6 +60,9 @@
                 .hello {
                     color: #FCC5D7;
                     font-size: 50px;
+                    @media (max-width: 800px) {
+                        font-size: 40px;
+                    }
                 }
             }
             h1{
@@ -55,6 +71,9 @@
                 color:white;
                 padding: 1vhpx;
                 margin:0;
+                @media (max-width: 800px) {
+                    font-size: 50px;
+                }
             }
             hr{
                 color:white;
@@ -69,6 +88,9 @@
                 padding:1vh 20%;
                 text-align: center;
                 font-weight: 300;
+                @media (max-width: 800px) {
+                    font-size: 25px;
+                }
                 
             }
             
@@ -77,14 +99,19 @@
             align-items: center;
             justify-content: center;
             margin:0;
-
+            
             .downArrow{
                 width: 13vh;
                 padding-top: 6vh;
                 display: block;
+                @media (max-width: 800px) {
+                    width: 10vh;
+                }
+
                 img{
                     width: 100%;
                     animation: arrowBlink 2s infinite;
+                    overflow: visible;
                 }
                 @keyframes arrowBlink {
                     50%{
@@ -98,6 +125,9 @@
                     color: #FCC5D7;
                     animation: none;
                     width: 14vh;
+                    @media (max-width: 800px) {
+                        width: 11vh;  
+                    }
                 }
             }
 

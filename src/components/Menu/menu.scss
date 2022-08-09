@@ -20,11 +20,12 @@
     ul {
         margin: 0;
         padding:0;
+        
         list-style:none;
         font-size: 30px;
         font-weight:300;
         color:white;
-        width:60%;
+        width:80%;
 
         li{
             margin-bottom: 20px;
@@ -45,7 +46,21 @@
         }
         li:hover {
             background-position: left;
-            
+            a {
+                color:#687BBC ;
+            }
+        }
+        .icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .icon {
+                margin: 0;
+            }.icon:hover {
+                
+                background-color: #CEC5FC
+            }
+
         }
     }
 }

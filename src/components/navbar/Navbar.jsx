@@ -12,7 +12,7 @@ const Navbar = ({ menuOpen, setMenuOpen}) => {
       <div className="wrapper">
           <div className="left">
               <a href='#intro' className='logo'  > 
-                  chung...
+                  chung.
                  
               </a>
           </div>
