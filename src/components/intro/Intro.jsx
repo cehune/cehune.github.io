@@ -7,9 +7,9 @@ const Intro = () => {
     <div className='intro' id='intro'>
       <div className="wrapper">
         <div className='greeting'><h2 className='hello'>hello! </h2> <h2>i'm</h2> </div>
-        <h1> celine chung  </h1>
+        <h1> mckale chung  </h1>
         <hr />
-        <h3> First year Mechatronics Engineering student at the University of Waterloo, Illustrator, and passionate Climber</h3>
+        <h3> First year Mechatronics Engineering student at the University of Waterloo and illustrator</h3>
         
       </div>
       <div className="iconContainer">
