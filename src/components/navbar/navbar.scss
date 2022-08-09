@@ -37,6 +37,9 @@ body {
             display:flex;
             color:white;
           }
+          .logo:hover{
+              color: #C5F3FC ;
+          }
         }
 
         .right{
@@ -69,9 +72,6 @@ body {
       background-color: $mainColor;
       .logo{
         color: white;
-
-        
-        
       }
 
       .hamburger {

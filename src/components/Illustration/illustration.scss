@@ -48,10 +48,12 @@ body{
             height: 49.25%;
             width: 100%;
             margin:0;
-            filter: brightness(60%)
+            filter: brightness(60%);
+            animation: all 2s ease;
         }
         img:hover{
-            filter: brightness(100%)
+            filter: brightness(100%);
+            
         }
     
     }

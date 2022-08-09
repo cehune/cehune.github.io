@@ -29,7 +29,7 @@ const App = () => {
                 <Portfolio />
                 
                 <Illustration />
-                <About />
+              
                 <Contact />
             </div>
        
