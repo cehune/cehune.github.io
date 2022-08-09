@@ -4,7 +4,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import Email from '@mui/icons-material/Email';
+
 
 
 const Contact = () => {
@@ -39,7 +39,7 @@ const Contact = () => {
                       <input name = "subject" type = "text" class="subject" placeholder="Subject"/>
                     </label>
                     <label> 
-                      <textarea name = "message" class="message" placeholder="Your Message" class = "Message" rows='5' cols = '150'></textarea>
+                      <textarea name = "message" class="message" placeholder="Your Message"  rows='5' cols = '150'></textarea>
                     </label> 
                   <button type = "submit" >Send </button>
               </form>
