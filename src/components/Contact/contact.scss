@@ -5,22 +5,20 @@ body {
 .contact {
     background-color: $mainColor;
     width: 100%;
-    min-height: 140vh;
+ 
     scroll-behavior: smooth;
         scrollbar-width: none; 
         &::-webkit-scrollbar{
             display:none;
         }
-        @media (max-width: 900px) {
-          height: 180vh;
-      }
+        
 
 
     .contactSection {
       display: flex;
-      align-items: center;
+      align-items: start;
     width: 100%;
-    padding-top: 8%;
+      padding-top: 5%;
     @media (max-width: 900px) {
       flex-direction: column;
       align-items: center;
@@ -76,8 +74,10 @@ body {
 
     .right {
         width:50%;
+        
         @media (max-width: 900px) {
           width: 80%;
+
       }
         .contactForm {
             width: 80%;
@@ -87,9 +87,10 @@ body {
             @media (max-width: 900px) {
               width: 100%;  
               padding-left: 0;
-              padding-top: 5%;
-            
           }
+          @media (max-width: 1200px) and (min-width: 901px) {
+            padding-top: 10%;
+        }
             input{
                 width: 100%;
                 font-size: 16px;
@@ -142,8 +143,11 @@ body {
     .footer {
       width: 100%;
       margin: 0;
-      padding-top: 15vh;
+      padding-top: 5vh;
       padding-bottom: 10vh;
+      @media (max-width: 900px) {
+        display: none;
+    }
 
       h3 {
         text-align: center;

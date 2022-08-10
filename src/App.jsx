@@ -2,9 +2,9 @@ import React from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Intro from './components/Intro/Intro'
 import Portfolio from './components/Portfolio/Portfolio'
-import Works from './components/Works/Works'
+
 import Illustration from './components/Illustration/Illustration'
-import About from './components/About/About'
+
 import Contact from './components/Contact/Contact'
 import Menu from './components/Menu/Menu'
 import './app.scss'
@@ -30,6 +30,7 @@ const App = () => {
                 <Portfolio />
                 <Illustration />
                 <Contact className='contact'/>
+
             </div>
      
        
