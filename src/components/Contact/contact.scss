@@ -5,7 +5,8 @@ body {
 .contact {
     background-color: $mainColor;
     width: 100%;
- 
+  max-height: 100vh;
+  overflow: hidden;
     scroll-behavior: smooth;
         scrollbar-width: none; 
         &::-webkit-scrollbar{
@@ -93,7 +94,7 @@ body {
         }
             input{
                 width: 100%;
-                font-size: 16px;
+                font-size: 14px;
                 padding:  1rem;
                 border: 1px solid #ccc;
                 border-radius: 4px;
@@ -103,13 +104,13 @@ body {
                 margin-bottom: 16px;
                 font-weight: bold;
                 @media (max-width: 900px) {
-                  font-size: 14px;
+                  font-size: 12px;
               }
               }
               
               textarea{
                 resize: vertical;
-                font-size: 16px;
+                font-size: 14px;
                 padding:  1rem;
                 max-width: 100%;
                 border: 1px solid #ccc;
@@ -118,7 +119,7 @@ body {
                 font-weight: bold;
                 font-family: 'Raleway', sans-serif;
                 @media (max-width: 900px) {
-                  font-size: 14px;
+                  font-size: 12px;
               }
               }
               button {
@@ -144,17 +145,17 @@ body {
       width: 100%;
       margin: 0;
       padding-top: 5vh;
-      padding-bottom: 10vh;
+      padding-bottom: 5vh;
       @media (max-width: 900px) {
         display: none;
     }
 
       h3 {
         text-align: center;
-        font-size: 30px;
+        font-size: 25px;
         color: white;
         margin-bottom: 0;
-        padding-bottom: 2vh;
+        padding-bottom: 1vh;
       }
       hr {
         margin: 0 30%;
@@ -165,7 +166,7 @@ body {
         align-items: center;
         justify-content: center;
         width: 100%;
-        padding-top: 2vh;
+        padding-top: 1vh;
         .resume {
           text-align: center;
         font-size: 25px;
