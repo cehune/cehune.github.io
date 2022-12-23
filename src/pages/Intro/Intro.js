@@ -1,12 +1,21 @@
-import React from 'react'
+import * as React from "react";
+import { useRef } from "react";
+import { motion, useCycle } from "framer-motion";
+import './intro.css';
 
-const Intro = () => {
+
+
+
+const Example = () => {
+
+
   return (
-    <div className='intro' id='intro'>
-      hiya im celine! :3
-         
-    </div>
-  )
-}
+    <motion.div
+      className="box"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+    />
+  );
+};
 
-export default Intro
+export default Example;
