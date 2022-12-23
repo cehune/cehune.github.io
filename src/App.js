@@ -4,6 +4,7 @@ import './App.css';
 import Projects from './pages/Projects/Projects'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout/Layout";
+import Intro from "./pages/Intro/Intro";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route index element={<Intro />} />
           <Route path="projects" element={<Projects />} />
 
         </Route>
