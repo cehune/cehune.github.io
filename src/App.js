@@ -12,11 +12,14 @@ import { useState } from 'react';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [animation, setAnimation] = useState('closed');
   return (
     <div className="App">
       <BrowserRouter>
-            <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-            <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+            <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}
+                    animation={animation} setAnimation={setAnimation}/>
+            <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}
+                    animation={animation} setAnimation={setAnimation}/>
       
       <Routes>
 

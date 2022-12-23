@@ -5,15 +5,23 @@ import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-const Menu = ({ menuOpen, setMenuOpen }) => {
+const Menu = ({ menuOpen, setMenuOpen, animation, setAnimation }) => {
+
+    const onClick = () => {
+        setAnimation('moving');
+        setMenuOpen(!menuOpen);
+        setTimeout(() => {
+          setAnimation(animation === 'closed' ? 'open' : 'closed');
+        }, 200);
+      };
   return (
     
     <div className={'menu ' + ( menuOpen && 'active')}>
         <ul>
-            <li onClick={()=>setMenuOpen(false)}>
+            <li onClick={onClick}>
                 <Link to="/">Home</Link>
             </li>
-            <li onClick={()=>setMenuOpen(false)}>
+            <li onClick={onClick}>
                 <Link to="/projects">Projects</Link>
             </li>
            

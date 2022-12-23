@@ -16,8 +16,8 @@ const path01Variants = {
   moving: { d: 'M0 14.5L24 14.5' },
   closed: { d: 'M0 14.5L15 14.5' },
  }
-const Navbar = ({ menuOpen, setMenuOpen}) => {
-  const [animation, setAnimation] = useState('closed');
+const Navbar = ({ menuOpen, setMenuOpen, animation, setAnimation}) => {
+  //const [animation, setAnimation] = useState('closed');
 const onClick = () => {
   setAnimation('moving');
   setMenuOpen(!menuOpen);
@@ -28,24 +28,37 @@ const onClick = () => {
   
 
   return (
-    <div className = 'navbar' id='navbar'>
-      <button onClick={onClick} className = 'hamburger'>
-        <svg width='32' height='32' viewBox='0 0 24 24'>
-            <motion.path
-                stroke='white'
-                stroke-width="10"
-                animate={animation}
-                variants={path01Variants}
-            />
-            <motion.path
-                stroke='white'
-                stroke-width="20"
-                animate={animation}
-                variants={path02Variants}
-            />
-        </svg>
-    </button>
+    <div className = {( 'navbar ') + ( menuOpen && 'active ') } id='navbar'>
+        <div className='wrapper'>
+            <div className = 'left'>
+              <div className='icon' >
 
+              </div>
+              <div className = 'name'>
+                  <h3>celine c </h3>
+
+              </div>
+
+          </div>
+          <div className = 'right'>
+              <button onClick={onClick} className = 'hamburger'>
+                <svg width='44' height='44' viewBox='0 0 24 24'>
+                    <motion.path
+
+                        animate={animation}
+                        variants={path01Variants}
+                    />
+                    <motion.path
+            
+                
+                        animate={animation}
+                        variants={path02Variants}
+                    />
+                </svg>
+              </button>
+
+          </div>
+        </div>
     </div>
   )
 }

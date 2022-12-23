@@ -10,11 +10,11 @@ const Example = () => {
 
 
   return (
-    <motion.div
-      className="box"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-    />
+    <div>
+      
+    <h1>celines epci website :3</h1>
+    </div>
+    
   );
 };
 
