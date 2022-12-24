@@ -1,6 +1,6 @@
 import Intro from '../Intro/Intro';
 import Featured from '../Featured/Featured';
-import Projects from '../Projects/Projects'
+import Contact from '../Contact/Contact';
 import React from 'react'
 
 const Home = () => {
@@ -9,6 +9,7 @@ const Home = () => {
             <Intro />
 
             <Featured />
+            <Contact />
         </div>
     )
 }

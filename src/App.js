@@ -7,6 +7,8 @@ import Layout from "./pages/Layout/Layout";
 import Home from "./pages/Home/Home";
 import Menu from './pages/Menu/Menu'
 import Navbar from "./pages/Navbar/Navbar"
+import Illustration from './pages/Illustration/Illustration';
+import About from './pages/About/About';
 
 import { useState } from 'react';
 
@@ -25,6 +27,8 @@ function App() {
 
           <Route index element={<Home />} />
           <Route path="projects" element={<Projects />} />
+          <Route path="illustration" element={<Illustration />} />
+          <Route path="about" element={<About />} />
 
       </Routes>
     </BrowserRouter>
