@@ -4,7 +4,7 @@ import './App.css';
 import Projects from './pages/Projects/Projects'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout/Layout";
-import Example from "./pages/Intro/Intro";
+import Home from "./pages/Home/Home";
 import Menu from './pages/Menu/Menu'
 import Navbar from "./pages/Navbar/Navbar"
 
@@ -23,7 +23,7 @@ function App() {
       
       <Routes>
 
-          <Route index element={<Example />} />
+          <Route index element={<Home />} />
           <Route path="projects" element={<Projects />} />
 
       </Routes>
