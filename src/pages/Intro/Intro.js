@@ -15,7 +15,7 @@ const Intro = () => {
         <h1 className='hello'>  hi, i'm mckale! </h1>
         <hr />
         <h3> mechatronics engineering student at uwaterloo,  illustrator</h3>
-        <h3>test automation intern at ford</h3>
+        
         <div className="iconContainer">
         <a className='downArrow' href='#featured'><img src='assets/down arrow.png' alt=''/></a>
       </div>

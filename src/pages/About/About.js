@@ -20,7 +20,7 @@ const About = () => {
                         <h2>Education</h2>
                         <h3>University of Waterloo</h3>
                         <h3>Bachelors of Applied Science in Mechatronics Engineering, 2022 - Present</h3>
-                        <h3>GPA: 3.97 (94 / 100)</h3>
+                        <h3></h3>
                     </div>
                     <div className='work'>
                         <h2>Work Experience</h2>
