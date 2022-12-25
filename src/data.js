@@ -32,3 +32,31 @@ export const featuredProjectsJSON =[
     
 
 ]
+
+export const illus_col_1 = [
+    {
+  
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056387495299911691/natu.png',
+        insta: 'https://www.instagram.com/p/Cgj20naAhDE/'
+    },
+    {
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056387511066308608/winter_girl.png',
+        insta: 'https://www.instagram.com/p/CYdLkCwLZ4Q/'
+    }
+]
+export const illus_col_2 = [
+    {
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056387530402050078/fish_parade.png',
+        insta: 'https://www.instagram.com/p/CebjmJGJXMA/'
+    }
+
+]
+
+
+export const illus_col_3 = [
+    {
+        image: 'https://media.discordapp.net/attachments/689212878200242194/1056387521451405403/kindred.png?width=468&height=584',
+        insta: 'https://www.instagram.com/p/CZYKsBQlgS0/'
+    }
+]
+

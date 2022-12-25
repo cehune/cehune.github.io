@@ -1,0 +1,180 @@
+.featuredillus{
+    height: 100vh;
+    padding-bottom: 10vh;
+    width: 100%;
+    background-color: #FBF2D7 ;
+    display:flex;
+    
+    justify-content: center;
+    .container{
+        width: 70%;
+        height: 70%;
+        padding-top: 15vh;
+        text-align: right;
+    }
+    .images {
+        position:relative;
+        height:100%;
+        width:100%;
+        overflow:hidden;
+        object-fit: contain;
+        img {
+            position:absolute;
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+            border-radius: 30px;
+            left:0;
+          }
+      }
+      
+      h2{
+        
+        a{
+            
+            font-size: 40px;
+            text-decoration: none;
+            color: black;
+            font-weight: 400;
+            transition: 0.3s;
+            padding: 1vh 2.5vh;
+            border-radius: 20px;
+            border: 1px solid black ;
+        }
+      }
+      h2:hover{
+        a{
+           
+            background-color: #F1A22B;
+            border: none;
+            
+    
+     }
+      }
+
+      
+      
+}
+
+
+@-webkit-keyframes imgFade {
+    0% {
+      opacity:1;
+    }
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+   }
+   
+   @-moz-keyframes imgFade {
+    0% {
+      opacity:1;
+    }
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+   }
+   
+   @-o-keyframes imgFade {
+    0% {
+      opacity:1;
+    }
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+   }
+   
+   @keyframes imgFade {
+    0% {
+      opacity:1;
+    }
+    24% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+   }
+   
+   .images img {
+    -webkit-animation-name: imgFade;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+  
+    -moz-animation-name: imgFade;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-duration: 6s;
+  
+    -o-animation-name: imgFade;
+    -o-animation-timing-function: linear;
+    -o-animation-iteration-count: infinite;
+    -o-animation-duration: 6s;
+  
+    animation-name: imgFade;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+  }
+  .images img:nth-of-type(1) {
+    -webkit-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    -o-animation-delay: 3s;
+    animation-delay: 3s;
+  }
+  .images img:nth-of-type(2) {
+    
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
+  }
+  .images img:nth-of-type(3) {
+    
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    animation-delay: 1s;
+  }
+  .images img:nth-of-type(4) {
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay: 0;
+    animation-delay: 0;
+  }
+  
+ 

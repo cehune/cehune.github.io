@@ -5,4 +5,12 @@
         padding-top: 15vh;
         font-size: 50px;
     }
+
+    .area{
+        display: flex;
+        .col{
+            width: 33%;
+            
+        }
+    }
 }
