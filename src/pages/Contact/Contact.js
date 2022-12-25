@@ -49,7 +49,7 @@ const Contact = () => {
             </div>
         </div>
         <div className="footer">
-            <h3 className='quote'> celine chung</h3>
+            <h3 className='quote'> mckale chung</h3>
             <hr/> 
             <div className="resumeContainer"> <a className='resume' href='https://github.com/mckalechung/mckalechung.github.io/blob/main/public/assets/Mckale%20Chung%20Resume%20August%202022.pdf' target='_blank'> resume</a></div>
             <div className="icons">

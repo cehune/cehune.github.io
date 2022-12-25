@@ -1,6 +1,6 @@
 import "./animabout.scss";
-import { motion, useMotionValue, useTransform,} from "framer-motion";
-import {useState} from 'react';
+import { motion} from "framer-motion";
+
 
 
 

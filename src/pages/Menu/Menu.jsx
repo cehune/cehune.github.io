@@ -35,7 +35,7 @@ const Menu = ({ menuOpen, setMenuOpen, animation, setAnimation }) => {
             </li>
             
             <li>
-                <a href='https://github.com/mckalechung/mckalechung.github.io/blob/main/public/assets/Mckale%20Chung%20Resume%20August%202022.pdf' target='blank'> Resume</a>
+                <a href='https://github.com/mckalechung/mckalechung.github.io/blob/main/public/assets/Resume.pdf' target='blank'> Resume</a>
             </li>
             <div className="icons">
             <a className='icon' href='mailto: mckale.chung@gmail.com' target='_blank'><EmailIcon  style = {{color:'white', fontSize: '6vh', padding: '2vh'}} /> </a>
