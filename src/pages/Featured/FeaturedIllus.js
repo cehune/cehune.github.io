@@ -4,7 +4,9 @@ import './featuredillus.scss'
 import { Link } from "react-router-dom";
 
 const FeaturedIllus = () => {
-
+    const onClick = () => {
+        window.scrollTo(0, 0); 
+      };
     return (
         <div className='featuredillus' id = 'featuredillus'> 
             <div className = 'container'id="container">
@@ -17,7 +19,7 @@ const FeaturedIllus = () => {
 
 
                 </div>
-                <h2><Link to="/illustration">Illustrations..</Link></h2>
+                <h2><Link  onClick={onClick} to="/illustration">Illustrations..</Link></h2>
                 
             </div>
           <div className='space'></div>

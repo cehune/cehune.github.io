@@ -28,7 +28,7 @@ const About = () => {
                         <h3>Computer Vision Team Member @ UWARG || December 2022 - Present</h3>
                         
                     </div>
-                    <div className='languages'>
+                    <div className='skills'>
                         <h2>Skills</h2>
                         <h3>Languages: Python, C++, ReactJS </h3>
                         <h3>Libraries: OpenCV, PyTorch, Pandas, Numpy, Matplotlib</h3>

@@ -6,8 +6,8 @@ import FeaturedIllus from '../Featured/FeaturedIllus';
 const Home = () => {
     return(
         <div>
+            
             <Intro />
-
             <Featured />
             <FeaturedIllus />
             <Contact />

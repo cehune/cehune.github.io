@@ -9,6 +9,7 @@ const Menu = ({ menuOpen, setMenuOpen, animation, setAnimation }) => {
 
     const onClick = () => {
         setAnimation('moving');
+        window.scrollTo(0, 0);
         setMenuOpen(!menuOpen);
         setTimeout(() => {
           setAnimation(animation === 'closed' ? 'open' : 'closed');
@@ -39,7 +40,7 @@ const Menu = ({ menuOpen, setMenuOpen, animation, setAnimation }) => {
             <div className="icons">
             <a className='icon' href='mailto: mckale.chung@gmail.com' target='_blank'><EmailIcon  style = {{color:'white', fontSize: '6vh', padding: '2vh'}} /> </a>
                 <a className='icon' href='https://github.com/mckalechung' target='_blank'><GitHubIcon style = {{color:'white', fontSize: '6vh', padding: '2vh'}}/></a>
-                <a className='icon' href='https://www.linkedin.com/in/mckale-chung-507b22202/' target='_blank'><LinkedInIcon  style = {{color:'white', fontSize: '6vh', padding: '2vh'}}/></a>
+                <a className='icon' href='https://www.linkedin.com/in/cchung7' target='_blank'><LinkedInIcon  style = {{color:'white', fontSize: '6vh', padding: '2vh'}}/></a>
             </div>
         </ul>
         <Outlet />

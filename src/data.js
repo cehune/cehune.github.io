@@ -34,29 +34,35 @@ export const featuredProjectsJSON =[
 ]
 
 export const illus_col_1 = [
-    {
-  
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056387495299911691/natu.png',
-        insta: 'https://www.instagram.com/p/Cgj20naAhDE/'
-    },
-    {
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056387511066308608/winter_girl.png',
-        insta: 'https://www.instagram.com/p/CYdLkCwLZ4Q/'
-    }
-]
-export const illus_col_2 = [
+   
     {
         image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056387530402050078/fish_parade.png',
         insta: 'https://www.instagram.com/p/CebjmJGJXMA/'
-    }
+    },
+    {
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056665809231032390/Linkle_2.png',
+        insta: 'https://www.instagram.com/p/CNTJrcyhl3l/'
+    },
+    {
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056666965466423306/cranes_girl.png',
+        insta: 'https://www.instagram.com/p/CT-jIh2hJXE/'
+    },
 
 ]
-
-
-export const illus_col_3 = [
+export const illus_col_2 = [
+    
+    {
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056387511066308608/winter_girl.png',
+        insta: 'https://www.instagram.com/p/CYdLkCwLZ4Q/'
+    },
     {
         image: 'https://media.discordapp.net/attachments/689212878200242194/1056387521451405403/kindred.png?width=468&height=584',
         insta: 'https://www.instagram.com/p/CZYKsBQlgS0/'
-    }
+    },
+    {
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056665808836771860/girl_with_branch_and_dog.png',
+        insta: 'https://www.instagram.com/p/CSKQBfIrf_Q/'
+    },
 ]
+
 

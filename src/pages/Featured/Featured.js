@@ -6,6 +6,9 @@ import { Link } from "react-router-dom";
 
 const Featured = () => {
     const data = featuredProjectsJSON;
+    const onClick = () => {
+        window.scrollTo(0, 0); 
+      };
     return (
         <div className='featured' id = 'featured'> 
             <div className='content'>
@@ -26,7 +29,7 @@ const Featured = () => {
                         
                     </div>
                     <div className='button-redirect'>
-                        <Link className = 'redirect 'to="/projects">All Projects</Link>
+                        <Link onClick={onClick} className = 'redirect 'to="/projects">All Projects</Link>
                     </div>
             </div>
 

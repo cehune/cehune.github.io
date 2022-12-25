@@ -1,52 +1,42 @@
 import React from 'react';
 import './illustration.scss'
-import {illus_col_1, illus_col_2, illus_col_3} from "../../data";
+import {illus_col_1, illus_col_2} from "../../data";
 
 const Illustration = () => {
     const col_1 = illus_col_1;
     const col_2 = illus_col_2;
-    const col_3 = illus_col_3
+
     return (
         <div className='illustration' id = 'illustration'> 
         
-            <div>
-                <h1>Projects</h1>
-                <p>Assorted soup of ReactJS, Python, C/C++, and mechatronics systems.</p>
-                <p>t girl and her little anime girls</p>
+            <div className='main'>
+                <img src='https://cdn.discordapp.com/attachments/689212878200242194/1056387495299911691/natu.png' alt=' featured image' />
             </div>
-            <div className='area'>
-                <div className='col'>
-                    <div className="container">
-                            {col_1.map((d) => (
-                            
-                            
+            <div className='gallery'>
+                <div className='area'>
+                    <div className='col col-landscape'>
+                        <div className="container">
+                                {col_1.map((d) => (
+                                
+                                
+                                <div className="item">
+                                    <a href={d.insta} target="_blank"><img src={d.image} alt='' /></a>
+                                </div>
+                                ))}
+                        </div>
+                    </div>
+                    <div className='col col-portrait'>
+                        <div className="container">
+                            {col_2.map((d) => (
+                                
+                                
                             <div className="item">
-                                <a href={d.github} target="_blank"><img src={d.image} alt='' /></a>
+                                <a href={d.insta} target="_blank"><img src={d.image} alt='' /></a>
                             </div>
                             ))}
-                    </div>
-                </div>
-                <div className='col'>
-                    <div className="container">
-                        {col_2.map((d) => (
-                            
-                            
-                        <div className="item">
-                            <a href={d.github} target="_blank"><img src={d.image} alt='' /></a>
                         </div>
-                        ))}
                     </div>
-                </div>
-                <div className='col'>
-                    <div className="container">
-                        {col_3.map((d) => (
-                            
-                            
-                            <div className="item">
-                                <a href={d.github} target="_blank"><img src={d.image} alt='' /></a>
-                            </div>
-                        ))}
-                    </div>
+                    
                 </div>
 
             </div>
@@ -55,3 +45,5 @@ const Illustration = () => {
 }
 
 export default Illustration;
+
+/* */

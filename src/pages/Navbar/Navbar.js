@@ -18,19 +18,24 @@ const path01Variants = {
  }
 const Navbar = ({ menuOpen, setMenuOpen, animation, setAnimation}) => {
   //const [animation, setAnimation] = useState('closed');
-const onClick = () => {
-  setAnimation('moving');
-  setMenuOpen(!menuOpen);
-  setTimeout(() => {
-    setAnimation(animation === 'closed' ? 'open' : 'closed');
-  }, 200);
-};
+
+    const toHome = () => {
+      window.scrollTo(0, 0); 
+    }
+ 
+    const onClick = () => {
+      setAnimation('moving');
+      setMenuOpen(!menuOpen);
+      setTimeout(() => {
+        setAnimation(animation === 'closed' ? 'open' : 'closed');
+      }, 200);
+    };
   
 
   return (
     <div className = {( 'navbar ') + ( menuOpen && 'active ') } id='navbar'>
         <div className='wrapper'>
-            <Link to="/"><div className = 'left'>
+            <Link onClick={toHome} to="/"><div className = 'left'>
             
               <div className='icon' >
 
