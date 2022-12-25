@@ -35,12 +35,7 @@ html, body {
          -o-animation: fadein 4s; /* Opera < 12.1 */
             animation: fadein 4s;
             padding-top: 25vh;;
-            @media (max-width: 1200px) and (min-width: 801px) {
-                padding-top: 23vh;
-            }
-            @media (max-width: 800px) {
-                padding-top: 20vh;
-            }
+           
             
 
           

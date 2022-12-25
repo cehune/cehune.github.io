@@ -3,5 +3,12 @@
     width: 225px;
     background: black;
 
-
+    @media (max-width: 1200px) and (min-width: 801px) {
+        height: 175px;
+        width: 175px;
+    }
+    @media (max-width: 800px)  {
+        height: 150px;
+        width: 150px;
+    }
 }
