@@ -38,7 +38,7 @@
             .item {
                 width: 300px;
                 text-align: left;
-                height: 330px;
+              
                 
                 border-radius: 20px;
                 border: 2px solid  #CEC5FC;
@@ -47,7 +47,7 @@
                 transition: all 1s ease;
                 @media (max-width: 800px) {
                     width: 400px;
-                    height: 300px;
+           
                     margin: 1px;
 
                     .projectTitle{
@@ -56,7 +56,7 @@
                 }
                 @media (max-width: 1200px) and (min-width: 801px) {
                     width: 250px;
-                    height: 260px;
+                   
                     margin: 2px;
                     .projectTitle{
                         height: 60px;
@@ -64,11 +64,8 @@
                 }
                
     
-                .projectTitle{
-                    height: 80px;
-                    @media (max-width: 800px) {
-                        height: 60px;
-                    }
+                
+                    
                     h3 {
                     
                         font-size: 18px;
@@ -83,7 +80,7 @@
                         }
                         
                     }
-                }
+                
     
                 img {
                     width: 100%;
@@ -100,20 +97,25 @@
                 }
                 a {
                     margin-left: 1vh;
-                    
+                    padding-bottom: 3vh;
                     padding: 2vh;
+                    margin-bottom: 2vh;
                     background-color: #C5D7FC;
                     border-radius: 5px;
                     text-decoration: none;
                     font-family: 'Raleway', sans-serif; 
                     color: black;
                     @media (max-width: 800px) {
-                        padding:1vh; 
+                        padding:1vh;
+                        padding-bottom: 2vh; 
                     }
                 }
                 a:hover {
                     font-weight: bold;
                     background-color: #FCC5F3;
+                }
+                .extra{
+                    height: 10px;
                 }
     
                 

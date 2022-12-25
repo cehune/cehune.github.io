@@ -22,8 +22,9 @@ const Projects = () => {
                         
                     <div className="item">
                         <img src={d.image} alt='' />
-                        <div className='projectTitle'><h3>{d.title}</h3></div>
+                        <h3>{d.title}</h3>
                         <a href={d.github} target="_blank">GitHub</a>
+                        <div className='extra'></div>
                     </div>
                     ))}
                 </div>
