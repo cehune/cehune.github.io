@@ -25,19 +25,14 @@ const Menu = ({ menuOpen, setMenuOpen, animation, setAnimation }) => {
                 <Link to="/projects">Projects</Link>
             </li>
            
-            <li onClick={()=>setMenuOpen(false)}>
-                <a href='#illustration'>Illustration</a>
+            <li onClick={onClick}>
+                <Link to="/illustration">Illustrations</Link>
             </li>
            
-            <li onClick={()=>setMenuOpen(false)}>
-                <a href='#about'>About</a>
+            <li onClick={onClick}>
+                <Link to="/about">About</Link>
             </li>
-            <li onClick={()=>setMenuOpen(false)}>
-                <a href='#contact'>Contact</a>
-            </li>
-         
-
-          
+            
             <li>
                 <a href='https://github.com/mckalechung/mckalechung.github.io/blob/main/public/assets/Mckale%20Chung%20Resume%20August%202022.pdf' target='blank'> Resume</a>
             </li>

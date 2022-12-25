@@ -8,32 +8,36 @@ const Featured = () => {
     const data = featuredProjectsJSON;
     return (
         <div className='featured' id = 'featured'> 
-            <h2>Featured Projects</h2>
- 
+            <div className='content'>
+            <div className='left'>
+                <h1>Featured Projects..</h1>
+                <p>In C++, Python, or general mechatronics</p>
+                <div className='item itemleft'>
+                <div className='image'><a href="https://github.com/mckalechung/Canadian-Assistive-Rescue-Prototype-Robot" target="_blank"><img src="https://cdn.discordapp.com/attachments/689212878200242194/1056230897541709914/IMG_4401_1.jpg" alt='' /></a></div>
+                    <div className='projectTitle'><h3>Autonomous Simulated Rescue Robot</h3></div>
+                                    </div>
 
+            </div>
 
-            <div className="container">
-                    {data.map((d) => (
-                    
-                    
-                <div className="item">
-                    <img src={d.image} alt='' />
-                    <div className='projectTitle'><h3>{d.title}</h3></div>
-                    <a href={d.github} target="_blank">GitHub</a>
-          </div>
-          ))}
-        
-             </div>
-                   
-                        <div className="button-area">
-                            <div className='redirect'>
-                                <Link to="/projects">See More Projects</Link>
-                            </div>
-                        </div>
-                
-                    
+            <div className='right'>
+                    <div className='item itemright'>
+                    <a href="https://github.com/mckalechung/computer-vision-bootcamp" target="_blank"><img src="https://cdn.discordapp.com/attachments/689212878200242194/1056233711416377414/image.png" alt='' /></a>
+                        <div className='projectTitle'><h3>CIFAR-10 Image Classifier</h3></div>
+                        
+                    </div>
+                    <div className='button-redirect'>
+                        <Link className = 'redirect 'to="/projects">All Projects</Link>
+                    </div>
+            </div>
+
+            </div>
+         
         </div>
     )
 }
 
 export default Featured;
+
+
+     
+         

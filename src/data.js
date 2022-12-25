@@ -1,9 +1,21 @@
 export const featuredProjectsJSON =[
     {
-        id:1, 
-        title: 'Predicting Song Genres with Machine Learning',
-        image: 'https://digital.hbs.edu/platform-digit/wp-content/uploads/sites/2/2020/04/spotify-logo-1920x1080-2.jpg',
-        github: 'https://github.com/mckalechung/Spotify-Data-Exploration-and-Analysis-to-Predict-Song-Genres'
+        id:5, 
+        title: 'CIFAR-10 Image Classifier',
+        image: "https://cdn.discordapp.com/attachments/689212878200242194/1056233711416377414/image.png",
+        github: 'https://github.com/mckalechung/CIFAR-10-Image-Classifier'
+    },
+    {
+        id:4, 
+        title: 'Autonomous Simulated Rescue Robot',
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056230897541709914/IMG_4401_1.jpg',
+        github: 'https://github.com/mckalechung/Canadian-Assistive-Rescue-Prototype-Robot'
+    },
+    {
+        id:3, 
+        title: 'Wayward Zoo',
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1006305336694681721/unknown.png',
+        github: 'https://github.com/mckalechung/Wayward-Zoo'
     },
     {
         id:2, 
@@ -12,9 +24,11 @@ export const featuredProjectsJSON =[
         github: 'https://github.com/mckalechung/Google-Mockup'
     },
     {
-        id:3, 
-        title: 'Wayward Zoo',
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1006305336694681721/unknown.png',
-        github: 'https://github.com/mckalechung/Wayward-Zoo'
+        id:1, 
+        title: 'Predicting Song Genres with Machine Learning',
+        image: 'https://digital.hbs.edu/platform-digit/wp-content/uploads/sites/2/2020/04/spotify-logo-1920x1080-2.jpg',
+        github: 'https://github.com/mckalechung/Spotify-Data-Exploration-and-Analysis-to-Predict-Song-Genres'
     }
+    
+
 ]

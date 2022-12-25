@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { BrowserRouter, Route, Link } from "react-router-dom";
-import { useState } from "react";
+import {  Link } from "react-router-dom";
+
 import { motion } from "framer-motion";
 import './navbar.scss'
 
@@ -30,16 +30,19 @@ const onClick = () => {
   return (
     <div className = {( 'navbar ') + ( menuOpen && 'active ') } id='navbar'>
         <div className='wrapper'>
-            <div className = 'left'>
+            <Link to="/"><div className = 'left'>
+            
               <div className='icon' >
 
               </div>
               <div className = 'name'>
-                  <h3>celine c </h3>
+                  
+                  <h3>celine c</h3>
+                   
 
               </div>
-
-          </div>
+             
+          </div></Link> 
           <div className = 'right'>
               <button onClick={onClick} className = 'hamburger'>
                 <svg width='44' height='44' viewBox='0 0 24 24'>

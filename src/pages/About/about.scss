@@ -8,10 +8,12 @@
         .left{
                 width:35%;
                 
-                background: #201F1B ;
+                //background: #201F1B ;
+                background: #393636;
                 height: 100%; 
                 display:flex;
                 align-items: center;
+                justify-content: center;
 
                 
                 
@@ -23,14 +25,15 @@
                 padding-top: 15vh;
                 
                 h1{
-        
-                    font-size: 70px;
+                    font-weight: 400;
+                    font-size:40px;
                     font-weight: none;
-                    font-family: 'Permanent Marker', cursive;
+                    font-family: 'Raleway', sans-serif;
                 }
                 .blurb{
                     width: 80%;
-                    font-size:18px;
+                    font-size:20px;
+                    color: grey;
                     font-family: 'Raleway', sans-serif;
                 }
         
@@ -38,30 +41,33 @@
                     padding-left: 5%;
                     padding-top: 5vh;
                     h2{
-                        font-size: 36px;
+                        font-size: 26px;
+                        
                         margin:0;
                         padding-bottom: 10px;
                     }
                     h3{
-                        font-family: 'Poppins', sans-serif;
-                        font-size: 18px;
+                        font-family: 'Raleway', sans-serif;
+                        font-size: 16px;
                         margin: 0;
                         padding-bottom: 10px;
+                        font-weight: 400;
                     }
                 }
                 .work{
                     padding-left: 5%;
                     padding-top: 5vh;
                     h2{
-                        font-size: 36px;
+                        font-size: 26px;
                         margin:0;
                         padding-bottom: 10px;
                     }
                     h3{
-                        font-family: 'Poppins', sans-serif;
-                        font-size: 18px;
+                        font-family: 'Raleway', sans-serif;
+                        font-size: 16px;
                         margin: 0;
                         padding-bottom: 10px;
+                        font-weight: 400;
                     }
                 }
         }

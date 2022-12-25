@@ -12,9 +12,12 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("mjvzvbej");
   return (
     <div className = 'contact' id='contact'>
+      
         <div className="contactSection">
+            
             <div className="left">
                     <div className="textContent">
+                      <hr />
                         <h3>Lets Connect, I'd love to chat!</h3>
                         <hr /> 
                         <p>

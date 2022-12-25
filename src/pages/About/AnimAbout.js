@@ -25,7 +25,7 @@ const AnimAbout = () => {
         
         duration: 2,
         ease: "easeInOut",
-        times: [0, 0.15, 0.45, 0.8,],
+        times: [0, 0.15, 0.45, 0.8, 1],
         repeat: Infinity,
         repeatDelay: 1
       }}
