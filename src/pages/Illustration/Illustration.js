@@ -10,7 +10,7 @@ const Illustration = () => {
         <div className='illustration' id = 'illustration'> 
         
             <div className='main'>
-                <img src='https://cdn.discordapp.com/attachments/689212878200242194/1056387495299911691/natu.png' alt=' featured image' />
+                <img src='https://cdn.discordapp.com/attachments/689212878200242194/1056387495299911691/natu.png' alt=' featured ' />
             </div>
             <div className='gallery'>
                 <div className='area'>
@@ -20,7 +20,7 @@ const Illustration = () => {
                                 
                                 
                                 <div className="item">
-                                    <a href={d.insta} target="_blank"><img src={d.image} alt='' /></a>
+                                    <a href={d.insta}  rel="noreferrer"target="_blank"><img src={d.image} alt='' /></a>
                                 </div>
                                 ))}
                         </div>
@@ -31,7 +31,7 @@ const Illustration = () => {
                                 
                                 
                             <div className="item">
-                                <a href={d.insta} target="_blank"><img src={d.image} alt='' /></a>
+                                <a href={d.insta}  rel="noreferrer" target="_blank"><img src={d.image} alt='' /></a>
                             </div>
                             ))}
                         </div>

@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import logo from './logo.svg';
+import React from "react";
+
 import './App.css';
 import Projects from './pages/Projects/Projects'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -8,7 +8,7 @@ import Menu from './pages/Menu/Menu'
 import Navbar from "./pages/Navbar/Navbar"
 import Illustration from './pages/Illustration/Illustration';
 import About from './pages/About/About';
-import { withRouter } from "react-router-dom";
+
 import { useState } from 'react';
 
 

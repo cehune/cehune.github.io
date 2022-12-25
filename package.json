@@ -15,9 +15,9 @@
     "@types/react-dom": "^18.0.10",
     "@types/react-router-dom": "^5.3.3",
     "framer-motion": "^4.1.17",
+    "gh-pages": "^4.0.0",
     "node-sass": "npm:sass@^1.57.1",
     "react": "^18.2.0",
-    "gh-pages": "^4.0.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.0",
     "react-scripts": "^5.0.1",
@@ -34,7 +34,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b gh-pages -d build"
-    
   },
   "eslintConfig": {
     "extends": [
