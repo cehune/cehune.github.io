@@ -24,11 +24,30 @@
             width: 80%;
             display: flex;
             padding-top: 5%;
+            
+            @media (max-width: 800px) {
+                flex-direction: column;
+            }
+            
             .col-landscape{
                 width:66%;
+                @media (max-width: 1200px) and (min-width: 801px) {
+                    width: 55%;
+                }
+                @media (max-width: 800px)  {
+                    width:100%;
+                }
+               
+                
             }
             .col-portrait{
                 width: 34%;
+                @media (max-width: 1200px) and (min-width: 801px) {
+                    width: 45%;
+                }
+                @media (max-width: 800px)  {
+                    width:100%;
+                }
     
             }
             .col{ //general stuff for columns

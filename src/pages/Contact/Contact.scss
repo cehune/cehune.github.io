@@ -4,7 +4,7 @@
     background-color: #1A1A1A;
     width: 100%;
     
-  max-height: 100vh;
+  
   overflow: hidden;
     scroll-behavior: smooth;
         scrollbar-width: none; 
@@ -67,9 +67,7 @@
                 
                 color: white;
                 text-align: right;
-                @media (max-width: 900px) {
-                  display: none;
-              }
+               
             }
 
 
@@ -151,9 +149,7 @@
       margin: 0;
       padding-top: 5vh;
       padding-bottom: 5vh;
-      @media (max-width: 900px) {
-        display: none;
-    }
+      
 
       h3 {
         text-align: center;
