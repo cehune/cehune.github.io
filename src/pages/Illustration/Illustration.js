@@ -10,9 +10,12 @@ const Illustration = () => {
         <div className='illustration' id = 'illustration'> 
         
             <div className='main'>
-                <img src='https://cdn.discordapp.com/attachments/689212878200242194/1056387495299911691/natu.png' alt=' featured ' />
+                
+                <div className="iconContainer">
+        <a className='downArrow' href='#gallery'><img src='assets/down arrow.png' alt=''/></a>
+      </div>
             </div>
-            <div className='gallery'>
+            <div className='gallery' id='gallery'>
                 <div className='area'>
                     <div className='col col-landscape'>
                         <div className="container">

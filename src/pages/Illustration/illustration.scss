@@ -1,19 +1,59 @@
 .illustration{
     background: #1A1A1A;;
     width: 100%;
+ 
     .main{
 
         height: 100vh;
         width: 100%;
         overflow: hidden;
-        
-        img{
-            object-fit: cover;
-            height: 100%;
+        position: relative;
+        object-fit: cover;
+        background-image: url(./natu.png);
+        background-size: cover;
+       
+        .iconContainer {
+            display:flex;
+            align-items: center;
             width: 100%;
+            top:70%;
+            justify-content: center;
+            margin:0;
+            position:absolute;
             
-   
+            .downArrow{
+                width: 13vh;
+                padding-top: 6vh;
+                display: block;
+                @media (max-width: 800px) {
+                    width: 10vh;
+                }
+
+                img{
+                    width: 100%;
+                    animation: arrowBlink 2s infinite;
+                    overflow: visible;
+                }
+                @keyframes arrowBlink {
+                    50%{
+                        opacity: 0.2;
+                    }
+                    100%{ opacity: 1;}
+                    
+                }
+            }.downArrow:hover{
+                img{
+                    color: #FCC5D7;
+                    animation: none;
+                    width: 14vh;
+                    @media (max-width: 800px) {
+                        width: 11vh;  
+                    }
+                }
+            }
+
         }
+        
     }
 
     .gallery{

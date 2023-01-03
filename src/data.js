@@ -50,7 +50,10 @@ export const illus_col_1 = [
 
 ]
 export const illus_col_2 = [
-    
+    {
+        image: "https://cdn.discordapp.com/attachments/689212878200242194/1059898636110151880/fish_parade_1.png",
+        insta: 'https://www.instagram.com/p/CmzTNDPpiZs/'
+    },
     {
         image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056387511066308608/winter_girl.png',
         insta: 'https://www.instagram.com/p/CYdLkCwLZ4Q/'
