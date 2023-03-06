@@ -42,7 +42,7 @@ const Navbar = ({ menuOpen, setMenuOpen, animation, setAnimation}) => {
               </div>
               <div className = 'name'>
                   
-                  <h3>mckale c</h3>
+                  <h3>cehune</h3>
                    
 
               </div>

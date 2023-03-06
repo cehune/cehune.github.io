@@ -12,9 +12,9 @@ const Intro = () => {
     <div className='intro' id='intro'>
       <div className="wrapper">
        
-        <h1 className='hello'>  hi, i'm mckale! </h1>
+        <h1 className='hello'>  hi, i'm celine! </h1>
         <hr />
-        <h3> mechatronics engineering student at uwaterloo,  illustrator</h3>
+        <h3> aspiring developer and equally aspiring illustrator</h3>
         
         <div className="iconContainer">
         <a className='downArrow' href='#featured'><img src='assets/down arrow.png' alt=''/></a>
