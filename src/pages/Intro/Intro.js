@@ -12,7 +12,7 @@ const Intro = () => {
     <div className='intro' id='intro'>
       <div className="wrapper">
        
-        <h1 className='hello'>  hi, i'm celine! </h1>
+        <h1 className='hello'>  hi, i'm celine. </h1>
         <hr />
         <h3> aspiring developer and equally aspiring illustrator</h3>
         

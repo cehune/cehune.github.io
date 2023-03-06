@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import {  Link } from "react-router-dom";
 
@@ -18,7 +18,7 @@ const path01Variants = {
  }
 const Navbar = ({ menuOpen, setMenuOpen, animation, setAnimation}) => {
   //const [animation, setAnimation] = useState('closed');
-
+  
     const toHome = () => {
       window.scrollTo(0, 0); 
     }
@@ -33,7 +33,7 @@ const Navbar = ({ menuOpen, setMenuOpen, animation, setAnimation}) => {
   
 
   return (
-    <div className = {( 'navbar ') + ( menuOpen && 'active ') } id='navbar'>
+    <div className = {( 'navbar ') + ( menuOpen && 'active ')  } id='navbar'>
         <div className='wrapper'>
             <Link onClick={toHome} to="/"><div className = 'left'>
             
