@@ -33,7 +33,7 @@ const Featured = () => {
                     </div>
             </div>
             </div>
-         
+           <h2 className='seemore'> <Link className='seemorelink' onClick={onClick} to="/projects">see more</Link></h2>
         </div>
     )
 }

@@ -33,7 +33,7 @@
         flex-direction: column;
         align-items: center;
         padding-top: 5vh;
-        padding-bottom: 10vh;
+        padding-bottom: 5vh;
         justify-content: center;
        // width: 70%;
        width: 100%;
@@ -121,3 +121,25 @@
         }
 
     }}
+
+.seemore {
+
+        font-size: 30px;
+        padding-bottom: 7vh;
+        margin: 0;
+        :hover{
+            background: #C5F3FC ;
+            color: black;
+            .seemorelink{
+                color: black
+            }
+        }
+        .seemorelink{
+            text-decoration: none;
+            color: white;
+            border: solid 1px white;
+            border-radius: 2vh;
+            padding: 3vh;
+            
+        }
+    }
