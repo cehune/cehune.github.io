@@ -19,20 +19,18 @@ const Menu = ({ menuOpen, setMenuOpen, animation, setAnimation }) => {
     
     <div className={'menu ' + ( menuOpen && 'active')}>
         <ul>
-            <li onClick={onClick}>
-                <Link to="/">Home</Link>
-            </li>
-            <li onClick={onClick}>
-                <Link to="/projects">Projects</Link>
-            </li>
+            <Link className='menulink'to="/" onClick={onClick}><li>Home</li></Link>
+             <Link  className='menulink'onClick={onClick} to="/projects"><li >
+               Projects
+            </li></Link>
            
-            <li onClick={onClick}>
-                <Link to="/illustration">Illustrations</Link>
-            </li>
+            <Link className='menulink'onClick={onClick} to="/illustration"><li >
+                Illustrations
+            </li></Link>
            
-            <li onClick={onClick}>
-                <Link to="/about">About</Link>
-            </li>
+             <Link className='menulink'onClick={onClick} to="/about"><li>
+               About
+            </li></Link>
             
             <li>
                 <a href='https://github.com/mckalechung/mckalechung.github.io/blob/main/public/assets/Resume.pdf' target='blank'> Resume</a>
