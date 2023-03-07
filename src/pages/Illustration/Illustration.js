@@ -16,13 +16,13 @@ const Illustration = () => {
       </div>
             </div>
             <div className='gallery' id='gallery'>
-                <div className='area'>
+                <div className='galleryarea'>
                     <div className='col col-landscape'>
                         <div className="container">
                                 {col_1.map((d) => (
                                 
                                 
-                                <div className="item">
+                                <div className="galitem">
                                     <a href={d.insta}  rel="noreferrer"target="_blank"><img src={d.image} alt='' /></a>
                                 </div>
                                 ))}
@@ -33,7 +33,7 @@ const Illustration = () => {
                             {col_2.map((d) => (
                                 
                                 
-                            <div className="item">
+                            <div className="galitem">
                                 <a href={d.insta}  rel="noreferrer" target="_blank"><img src={d.image} alt='' /></a>
                             </div>
                             ))}
