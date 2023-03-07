@@ -12,9 +12,6 @@ const Projects = () => {
                 <p> An assorted soup of ReactJS, Python, C/C++, and mechatronics systems.</p>
             </div>
 
- 
-
-
             <div className='area'>
                 <div className="container">
                         {data.map((d) => (

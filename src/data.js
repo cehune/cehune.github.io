@@ -57,7 +57,7 @@ export const featuredProjectsJSON =[
     },
     {
         id:1, 
-        title: 'SONG GENRE PREDICTION MODEL',
+        title: 'SONG GENRE PREDICTOR',
         description: "Song genre classifier model, based on Spotify data",
         tools: "Python, Pandas",
         image: 'https://digital.hbs.edu/platform-digit/wp-content/uploads/sites/2/2020/04/spotify-logo-1920x1080-2.jpg',
