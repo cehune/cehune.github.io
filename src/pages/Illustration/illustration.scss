@@ -10,6 +10,9 @@
         position: relative;
         object-fit: cover;
         background-image: url(./natu.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
         background-size: cover;
        
         .iconContainer {
