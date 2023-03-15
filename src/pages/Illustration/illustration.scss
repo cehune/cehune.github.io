@@ -112,3 +112,58 @@
         }
     }
 }
+
+
+
+.gridcontainer{
+    display: flex;
+    justify-content: center;
+}
+.gridone {
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    grid-template-rows: 55% 5% 30%;
+    padding-top: 5vh;
+    width:75%;
+    height: 100vh;
+
+    gap: 2vh;
+
+    .gridoneitem1 {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+        object-fit: cover;
+        overflow:hidden;
+
+    }
+    .gridoneitem2 {
+        grid-column: 3 / span 1;
+        grid-row: 1 / span 1;
+        overflow:hidden;
+
+    }
+    .gridoneitem3 {
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 1;
+        overflow:hidden;
+    }
+    .gridoneitem4 {
+        grid-column: 2 / span 1;
+        grid-row: 3 / span 1;
+        overflow:hidden;
+
+    }
+    .gridoneitem5 {
+        grid-column: 3 / span 1;
+        grid-row: 2 / span 2;
+        overflow:hidden;
+
+    }
+    img {
+        object-fit: contain;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    
+}

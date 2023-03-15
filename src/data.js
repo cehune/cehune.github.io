@@ -103,7 +103,29 @@ export const illus_col_2 = [
     {
         image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056665808836771860/girl_with_branch_and_dog.png',
         insta: 'https://www.instagram.com/p/CSKQBfIrf_Q/'
-    },
+    }
 ]
 
 
+export const gridone = [
+    {
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056387530402050078/fish_parade.png',
+        insta: 'https://www.instagram.com/p/CebjmJGJXMA/'
+    },
+    {
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056666965466423306/cranes_girl.png',
+        insta: 'https://www.instagram.com/p/CT-jIh2hJXE/'
+    },
+    {
+        image: "https://cdn.discordapp.com/attachments/689212878200242194/1059898636110151880/fish_parade_1.png",
+        insta: 'https://www.instagram.com/p/CmzTNDPpiZs/'
+    },
+    {
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1085342328941707284/lucina.png',
+        insta: 'https://www.instagram.com/p/CQpM73qhyJZ/'
+    },
+    {
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056387511066308608/winter_girl.png',
+        insta: 'https://www.instagram.com/p/CYdLkCwLZ4Q/'
+    }
+]
