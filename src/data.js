@@ -129,3 +129,18 @@ export const gridone = [
         insta: 'https://www.instagram.com/p/CYdLkCwLZ4Q/'
     }
 ]
+
+export const gridtwo = [
+    {
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1085690591653929131/Night_Blossom_Kindred_-_dreary.beloved_commission.png',
+        insta: 'https://www.instagram.com/p/CZYKsBQlgS0/'
+    },
+    {
+        image: "https://cdn.discordapp.com/attachments/689212878200242194/1082462758341181491/IMG_20230218_120612_744.jpg",
+        insta: 'https://www.instagram.com/p/Coz77wFJK-s/'
+    },
+    {
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056665808836771860/girl_with_branch_and_dog.png',
+        insta: 'https://www.instagram.com/p/CSKQBfIrf_Q/'
+    }
+]

@@ -2,6 +2,7 @@ import React from 'react';
 import './illustration.scss'
 import {illus_col_1, illus_col_2} from "../../data";
 import { GridOne } from './Grids/GridOne';
+import { GridTwo } from './Grids/GridTwo';
 const Illustration = () => {
     const col_1 = illus_col_1;
     const col_2 = illus_col_2;
@@ -15,7 +16,10 @@ const Illustration = () => {
         <a className='downArrow' href='#gallery'><img src='assets/down arrow.png' alt=''/></a>
       </div>
         
-            </div><GridOne />
+            </div>
+            <GridTwo />
+            <GridOne />
+            
             <div className='gallery' id='gallery'>
                 <div className='galleryarea'>
                     <div className='col col-landscape'>
