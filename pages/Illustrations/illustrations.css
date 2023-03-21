@@ -1,0 +1,198 @@
+body,
+html {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.illustration {
+    background: #1a1a1a;
+    width: 100%;
+    position: absolute;
+}
+
+.illustration .main {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    background-image: url(./natu.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.illustration .main .iconContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    top: 70%;
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+}
+
+.illustration .main .iconContainer .downArrow {
+    width: 13vh;
+    padding-top: 6vh;
+    display: block;
+}
+
+@media (max-width: 800px) {
+    .illustration .main .iconContainer .downArrow {
+        width: 10vh;
+    }
+}
+
+.illustration .main .iconContainer .downArrow img {
+    width: 100%;
+    animation: arrowBlink 2s infinite;
+    overflow: visible;
+}
+
+@keyframes arrowBlink {
+    50% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.illustration .main .iconContainer .downArrow:hover img {
+    color: #fcc5d7;
+    animation: none;
+    width: 14vh;
+}
+
+@media (max-width: 800px) {
+    .illustration .main .iconContainer .downArrow:hover img {
+        width: 11vh;
+    }
+}
+
+.illustration .gallery {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.illustration .gallery .galleryarea {
+    width: 80%;
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+@media (max-width: 800px) {
+    .illustration .gallery .galleryarea {
+        flex-direction: column;
+    }
+}
+
+.illustration .gallery .galleryarea .col-landscape {
+    width: 66%;
+}
+
+@media (max-width: 1200px) and (min-width: 801px) {
+    .illustration .gallery .galleryarea .col-landscape {
+        width: 55%;
+    }
+}
+
+@media (max-width: 800px) {
+    .illustration .gallery .galleryarea .col-landscape {
+        width: 100%;
+    }
+}
+
+.illustration .gallery .galleryarea .col-portrait {
+    width: 34%;
+}
+
+@media (max-width: 1200px) and (min-width: 801px) {
+    .illustration .gallery .galleryarea .col-portrait {
+        width: 45%;
+    }
+}
+
+@media (max-width: 800px) {
+    .illustration .gallery .galleryarea .col-portrait {
+        width: 100%;
+    }
+}
+
+.illustration .gallery .galleryarea .col .container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.illustration .gallery .galleryarea .col .container img {
+    object-fit: contain;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.illustration .gallery .galleryarea .col .container img:hover {
+    filter: brightness(70%) saturate(0.7) blur(2px);
+}
+
+
+
+.gridcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.gridone {
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-template-rows: 55% 5% 30%;
+    padding-top: 2vh;
+    width: 80%;
+    height: 120vh;
+    padding-bottom: 0;
+    gap: 2vh;
+    overflow: hidden;
+}
+
+.gridone .gridoneitem1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    object-fit: cover;
+}
+
+.gridone .gridoneitem2 {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.gridone .gridoneitem3 {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+    overflow: hidden;
+}
+
+.gridone .gridoneitem4 {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+    overflow: hidden;
+}
+
+.gridone .gridoneitem5 {
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 2;
+    overflow: hidden;
+}
+
+.gridone img {
+    object-fit: contain;
+
+    width: 100%;
+    height: 100%;
+}

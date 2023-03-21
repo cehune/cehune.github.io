@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>celine c</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <script src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script>
+    $(function () {
+      $("#nav").load("pages/NavBar.html");
+      $("#menu").load("pages/Menu.html");
+    });
+  </script>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+   <nav class="navbar nav-up" id='navbar'>
+    <div class='brand-title'><a href="#intro" class="me" title='Redirect to the top!'>cehune </a></div>
+    <a onclick="openNav()" href="javascript:void(0)" class='opennav'>blue ok</a>
+  </nav>
+  <div id="menu"><div>
+    <div id='page_shift_one' class='page_shift_one'></div>
+    <div id='page_shift_two' class='page_shift_two'></div>
+    <div id='page_shift_three' class='page_shift_three'></div>
+    <div id='myNav' class='overlay'>
+        <a href="javascript:void(0)" onclick="closeNav()" class='closenav'>
+            haha
+        </a>
+        <h1 class="pogme">CELINE CHUNG</h1>
+        <div class='navbar-links overlay-content' id='navbar-links'>
+          
+            <ul>
+              <a class='sidenav'  onclick='closeNav()' href="#">Home</a>
+                
+                <a class='sidenav' onclick='closeNav()' href="pages/Illustrations/Illustrations.html">Illustrations</a>
+                <a class='sidenav' onclick='closeNav()' href="pages/Illustrations/Grids/GridOne.html">Projects</a>
+                <a class='sidenav' onclick='closeNav()'href="./resume/resume.html">Resume</a>
+                <a class='sidenav navcomputer' href="./about/about.html">About</a>
+                <a class='sidenav     navcomputer' href="./contact/contact.html">Contact</a>
+            </ul>
+        </div>
+    </div>
+</div></div>
+
+
+  <!-- intro page, name and whatnot-->
+  <div class='intro' id='intro'>
+    <div class="wrapper">
+      <h3> illustrator and developer ||</h3>
+      <h1 class='hello'> CELINE CHUNG </h1>
+      <hr />
+
+
+      <div class="iconContainer">
+        <a class='downArrow' href='#featured'><img src='assets/down arrow.png' alt='' /></a>
+      </div>
+    </div>
+
+
+</body>
+
+</html>
