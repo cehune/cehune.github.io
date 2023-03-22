@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import './App.css';
 import Projects from './pages/Projects/Projects'
@@ -9,7 +9,7 @@ import Navbar from "./pages/Navbar/Navbar"
 import Illustration from './pages/Illustration/Illustration';
 import About from './pages/About/About';
 
-import { useState } from 'react';
+import { useState} from 'react';
 
 
 
@@ -17,18 +17,22 @@ import { useState } from 'react';
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [animation, setAnimation] = useState('closed');
+  const [onload, setOnload] = useState(false)
+  
+
   return (
     <div className="App">
       <BrowserRouter>
 
               <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}
-                      animation={animation} setAnimation={setAnimation}/>
+                      animation={animation} setAnimation={setAnimation}
+                      />
               <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}
                       animation={animation} setAnimation={setAnimation}/>
    
         <Routes>
             
-            <Route index element={<Home />} />
+            <Route index element={<Home onload={onload}/>} />
             <Route path="projects" element={<Projects />} />
             <Route path="illustration" element={<Illustration />} />
             <Route path="about" element={<About />} />

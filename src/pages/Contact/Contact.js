@@ -1,5 +1,5 @@
 import React from 'react'
-import './contact.scss'
+import './Contact.scss'
 import { useForm} from '@formspree/react';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';

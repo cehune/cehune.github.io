@@ -21,16 +21,21 @@ const Navbar = ({ menuOpen, setMenuOpen, animation, setAnimation}) => {
   
     const toHome = () => {
       window.scrollTo(0, 0); 
+      setMenuOpen(false)
+      if (animation == 'open') {
+         setAnimation('closed')
+      }
     }
  
     const onClick = () => {
       setAnimation('moving');
+
       setMenuOpen(!menuOpen);
       setTimeout(() => {
         setAnimation(animation === 'closed' ? 'open' : 'closed');
       }, 200);
     };
-  
+    
 
   return (
     <div className = {( 'navbar ') + ( menuOpen && 'active ')  } id='navbar'>

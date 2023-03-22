@@ -20,34 +20,7 @@ const Illustration = () => {
             <GridTwo />
             <GridOne />
             
-            <div className='gallery' id='gallery'>
-                <div className='galleryarea'>
-                    <div className='col col-landscape'>
-                        <div className="container">
-                                {col_1.map((d) => (
-                                
-                                
-                                <div className="galitem">
-                                    <a href={d.insta}  rel="noreferrer"target="_blank"><img src={d.image} alt='' /></a>
-                                </div>
-                                ))}
-                        </div>
-                    </div>
-                    <div className='col col-portrait'>
-                        <div className="container">
-                            {col_2.map((d) => (
-                                
-                                
-                            <div className="galitem">
-                                <a href={d.insta}  rel="noreferrer" target="_blank"><img src={d.image} alt='' /></a>
-                            </div>
-                            ))}
-                        </div>
-                    </div>
-                    
-                </div>
 
-            </div>
         </div>
     )
 }

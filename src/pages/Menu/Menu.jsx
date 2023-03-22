@@ -16,8 +16,11 @@ const Menu = ({ menuOpen, setMenuOpen, animation, setAnimation }) => {
         }, 200);
       };
   return (
-    
-    <div className={'menu ' + ( menuOpen && 'active')}>
+    <div>     <div className={'menuback page_shift_one ' + ( menuOpen && 'active')}></div>
+    <div className={'menuback page_shift_two ' + ( menuOpen && 'active')}></div>
+    <div className={'menuback page_shift_three ' + ( menuOpen && 'active')}></div>
+    <div className={'menuback menu ' + ( menuOpen && 'active')}>
+        <h1 className='sideways_name'> celine dongmei chung </h1>
         <ul>
             <Link className='menulink'to="/" onClick={onClick}><li>Home</li></Link>
              <Link  className='menulink'onClick={onClick} to="/projects"><li >
@@ -43,7 +46,7 @@ const Menu = ({ menuOpen, setMenuOpen, animation, setAnimation }) => {
         </ul>
         <Outlet />
 
-    </div>
+    </div></div>
  
   )
 }
