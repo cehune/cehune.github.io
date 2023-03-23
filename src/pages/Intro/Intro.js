@@ -4,7 +4,7 @@ import './intro.scss';
 import {useState} from 'react'
 
 const particles = []
-for (var i = 0; i < 50; ++i){
+for (var i = 0; i < 30; ++i){
   particles.push(<div className="circle-container"><div className="circle"></div></div>)
 }
 

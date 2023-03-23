@@ -4,7 +4,7 @@
     position:fixed;
     top:0;
 
-    left:-100%;
+    left:-200%;
     z-index: 2;
     display:flex;
     flex-direction: column;
@@ -15,6 +15,12 @@
         left: 0;
 
     }
+    @media (max-width: 800px) {
+        display: block;
+        .sideways_name{
+            display: none;
+        }
+    }
 }
 
 .page_shift_one {
@@ -22,16 +28,13 @@
 
 }
 .page_shift_two {
-    background: #F1BACF  ;
-    transition-delay: 150ms;
-    &.active{
-        left: 0;
-        background: #E36E6E 
-    }
+    background: #FBC8C7   ;
+    transition-delay: 125ms;
+
 
 }
 .page_shift_three {
-    background: #BAF1F1  ;
+    background: #B7F8F7  ;
     transition-delay: 200ms;
 
 }
@@ -66,40 +69,62 @@
         }
         li{
             margin-bottom: 20px;
-            background: grey;
-            background: linear-gradient(to right,  #B4F2ED 50%,#1A1A1A   50%) right;
+            background-color: #1A1A1A ;
+           /*background: linear-gradient(to right,  #B4F2ED 50%,#1A1A1A   50%) right;*/
             padding: 0 10%;
             font-size: 75px;
             font-weight: 700;
             background-size: 200% 100%;
             transition: 0.1s linear;
+            letter-spacing: 2px;
             a{
                 font-size: inherit;
                 color: inherit;
                 text-decoration: none;
             }
             &:hover{
+                background-color: #B4F2ED;
                 font-weight: 500;
+                color: black;
+                font-style:italic;
             }
 
         }
         li:hover {
             background-position: left;
             a {
-                color:#687BBC ;
+                color:black;
             }
         }
         .icons {
             display: flex;
             align-items: center;
-            justify-content: center;
+            padding: 0 10%;
             .icon {
                 margin: 0;
+                margin-right: 2vh;
             }.icon:hover {
-                
-                background-color: #CEC5FC
+                color: black;
+                background-color: grey;
             }
 
+        }
+    }       
+    
+    @media (max-width: 1200px) and (min-width: 801px) {
+ 
+
+      }
+      @media (max-width: 800px) {
+        display: block;
+        .sideways_name{
+            display: none;
+        }
+        ul{
+            padding-top: 20vh;
+            li{
+                font-size: 40px;
+            }
         }
     }
 }

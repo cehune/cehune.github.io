@@ -3,7 +3,7 @@ import { gridtwo } from '../../../data'
 
 export const GridTwo = () => {
   return (
-    <div className='gridcontainer'>
+    <div className='gridcontainer' id='gallery'>
         <div className='gridtwo'>
         <a  href={gridtwo[0].insta}  className = 'gridtwoitem1'
             rel="noreferrer"target="_blank">

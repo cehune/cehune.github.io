@@ -22,7 +22,6 @@ const Menu = ({ menuOpen, setMenuOpen, animation, setAnimation }) => {
     <div className={'menuback menu ' + ( menuOpen && 'active')}>
         <h1 className='sideways_name'> celine dongmei chung </h1>
         <ul>
-            <Link className='menulink'to="/" onClick={onClick}><li>Home</li></Link>
              <Link  className='menulink'onClick={onClick} to="/projects"><li >
                Projects
             </li></Link>
@@ -30,18 +29,21 @@ const Menu = ({ menuOpen, setMenuOpen, animation, setAnimation }) => {
             <Link className='menulink'onClick={onClick} to="/illustration"><li >
                 Illustrations
             </li></Link>
-           
+
              <Link className='menulink'onClick={onClick} to="/about"><li>
                About
+            </li></Link>
+            <Link className='menulink'onClick={onClick} to="/about"><li>
+               Contact
             </li></Link>
             
             <li>
                 <a href='https://github.com/mckalechung/mckalechung.github.io/blob/main/public/assets/Resume.pdf' target='blank'> Resume</a>
             </li>
             <div className="icons">
-            <a className='icon' href='mailto: mckale.chung@gmail.com' target='_blank'><EmailIcon  style = {{color:'white', fontSize: '6vh', padding: '2vh'}} /> </a>
-                <a className='icon' href='https://github.com/mckalechung' target='_blank'><GitHubIcon style = {{color:'white', fontSize: '6vh', padding: '2vh'}}/></a>
-                <a className='icon' href='https://www.linkedin.com/in/cchung7' target='_blank'><LinkedInIcon  style = {{color:'white', fontSize: '6vh', padding: '2vh'}}/></a>
+            <a className='icon' href='mailto: mckale.chung@gmail.com' target='_blank'><EmailIcon  style = {{color:'white', fontSize: '6vh'}} /> </a>
+                <a className='icon' href='https://github.com/mckalechung' target='_blank'><GitHubIcon style = {{color:'white', fontSize: '6vh'}}/></a>
+                <a className='icon' href='https://www.linkedin.com/in/cchung7' target='_blank'><LinkedInIcon  style = {{color:'white', fontSize: '6vh'}}/></a>
             </div>
         </ul>
         <Outlet />
