@@ -1,95 +1,118 @@
-.about{
-    .info{
-        background: #FBF2D7 ;
+.about {
+    .info {
+        background: #1A1A1A;
         width: 100%;
-        display: flex;
-       
-          align-items: start;
+        display: block;
 
-          @media (max-width: 1200px) and (min-width: 801px) {
-            width: 100%;
-            flex-direction: column;
-        }
-        @media (max-width: 800px)  {
-            width:100%;
-            flex-direction: column;
-        }
-        .left{
-                width:35%;
-                
-                //background: #201F1B ;
-                background: #393636;
-                height: 100%; 
-                display:flex;
-                align-items: center;
-                justify-content: center;
-                @media (max-width: 1200px) and (min-width: 801px) {
-                    width: 100%;
-                    height: 400px;
-                }
-                @media (max-width: 800px)  {
-                    width:100%;
-                    height: 400px;
-                }
+        .experience {
+            text-align: left;;
+            width: 65%;
+            padding-left: 5%;
+            padding-top: 15vh;
+            margin-right: 5%;
+            padding-left: 5%;
 
-                
-                
-        }
-        .right{
-                text-align: left;;
-                width:65%;
+            @media (max-width: 1200px) {
+                padding-top: 5vh;
+                padding-left: 10%;
+                width: 80%;
                 padding-left: 5%;
-                padding-top: 15vh;
+                padding-bottom: 10%;
 
-                @media (max-width: 1200px) {
-                    padding-top: 5vh;
-                    padding-left: 10%;
-                    width: 80%;
-                    padding-bottom: 10%;
-                    
-                }
-                
-                h1{
-                    font-weight: 400;
-                    font-size:50px;
-                    font-weight: none;
-                    font-family: 'Raleway', sans-serif;
-                }
+            }
+
+            h1 {
+                font-size: 50px;
+                font-weight: none;
+                font-family: 'Poppins', sans-serif;
+                color: #FFB163;
+            }
+
+            .blurb {
+
+                font-size: 35px;
+                color: rgb(199, 193, 193);
+                font-family: 'Raleway', sans-serif;
+            }
+
+            .edu {
+                padding-left: 5%;
+                padding-top: 5vh;
+            }
+
+            .work {
+                padding-left: 5%;
+                padding-top: 5vh;
+            }
+
+            .skills {
+                padding-left: 5%;
+                padding-top: 5vh;
+                padding-bottom: 10vh;
+            }
+
+            .status {
+                font-size: 60px;
+            }
+
+            h2 {
+                font-size: 40px;
+                margin: 0;
+                padding-bottom: 10px;
+                color: white;
+            }
+
+            h3 {
+                font-family: 'Raleway', sans-serif;
+                font-size: 25px;
+                margin: 0;
+                padding-bottom: 10px;
+                font-weight: 400;
+                color: rgb(199, 193, 193);
+            }
+        }
+
+
+        @media (max-width: 1200px) and (min-width: 801px) {
+            padding-top: 5vh;
+            .experience{
+                width: 90%;
+
                 .blurb{
+                    font-size: 25px;
+                }
+                h2{
+                    font-size: 30px;
+                }
+                h3 {
 
-                    font-size:35px;
-                    color: rgb(59, 57, 57);
-                    font-family: 'Raleway', sans-serif;
+                    font-size: 20px;
+
                 }
-        
-                .edu{
-                    padding-left: 5%;
-                    padding-top: 5vh;
+            }
+        }
+
+        @media (max-width: 800px) {
+            padding-top: 5vh;
+            .experience{
+                width: 90%;
+
+                .blurb{
+                    font-size: 20px;
                 }
-                .work{
-                    padding-left: 5%;
-                    padding-top: 5vh;
+                h2{
+                    font-size: 30px;
                 }
-                .skills{
-                    padding-left: 5%;
-                    padding-top: 5vh;
-                    padding-bottom: 10vh;
+                h3 {
+
+                    font-size: 18px;
+
                 }
-                .status{
-                    font-size: 60px;
-                }
-                        h2{
-                            font-size: 40px;
-                            margin:0;
-                            padding-bottom: 10px;
-                        }
-                        h3{
-                            font-family: 'Raleway', sans-serif;
-                            font-size: 25px;
-                            margin: 0;
-                            padding-bottom: 10px;
-                            font-weight: 400;
-                        }
+            }
         }
     }
-}
+           
+
+       
+        }
+        

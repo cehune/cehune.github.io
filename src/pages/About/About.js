@@ -6,20 +6,19 @@ import Contact from '../Contact/Contact';
 const About = () => {
     return (
         <div className='about' id = 'about'> 
+
             <div className='info'>
 
         {  /*<div className = 'left'> 
                 <AnimAbout  className='anim'/>
-    </div>*/}  
-                <div className='right'>
+    </div>*/} 
+                <div className='experience'>
                     <h1>Hi again!</h1>
                     <p className='blurb'>Thanks for checking out this site. A little about me,
                      I love drawing, programming, designing, piano, cooking, and rock climbing!
                      Below are the important lightning round facts about me. </p>
 
-                    <div >
-                        <h2 className='status'>Current Status: Working on Internship at Ford!</h2>
-                    </div>
+                    
                     <hr />
                     <div className='edu'>
                         <h2>Education</h2>

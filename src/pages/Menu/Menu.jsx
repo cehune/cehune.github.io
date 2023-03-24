@@ -30,9 +30,9 @@ const Menu = ({ menuOpen, setMenuOpen, animation, setAnimation }) => {
                 Illustrations
             </li></Link>
 
-             {/* <Link className='menulink'onClick={onClick} to="/about"><li>
+             <Link className='menulink'onClick={onClick} to="/about"><li>
                About
-            </li></Link>*/}
+            </li></Link>
            <Link className='menulink'onClick={onClick} to="/contact"><li>
                Contact
             </li></Link> 
