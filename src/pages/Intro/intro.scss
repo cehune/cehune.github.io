@@ -138,26 +138,26 @@
 }
 
 @keyframes fadein {
-    from { top: 0; }
-    to   { top: -100vh; }
+    from { opacity: 0; }
+    to   {opacity: 100%; }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-    from { top: 0; }
-    to   { top: -100vh; }
+  from { opacity: 0; }
+  to   {opacity: 100%; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-    from { top: 0; }
-    to   { top: -100vh; }
+  from { opacity: 0; }
+  to   {opacity: 100%; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-    from { top: 0; }
-    to   { top: -100vh; }
+  from { opacity: 0; }
+  to   {opacity: 100%; }
 }
 
 
@@ -229,7 +229,7 @@
   
         animation-name: #{$framesName};
         animation-duration: $moveDuration;
-        animation-delay: random(4000) + ms;
+        animation-delay: random(3000) + ms;
   
         @keyframes #{$framesName} {
           from {

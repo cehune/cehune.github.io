@@ -8,7 +8,7 @@ import Menu from './pages/Menu/Menu'
 import Navbar from "./pages/Navbar/Navbar"
 import Illustration from './pages/Illustration/Illustration';
 import About from './pages/About/About';
-
+import Contact from "./pages/Contact/Contact";
 import { useState} from 'react';
 
 
@@ -17,7 +17,7 @@ import { useState} from 'react';
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [animation, setAnimation] = useState('closed');
-  const [onload, setOnload] = useState(false)
+
   
 
   return (
@@ -32,11 +32,11 @@ function App() {
    
         <Routes>
             
-            <Route index element={<Home onload={onload}/>} />
+            <Route index element={<Home />} />
             <Route path="projects" element={<Projects />} />
             <Route path="illustration" element={<Illustration />} />
             <Route path="about" element={<About />} />
-
+            <Route path="contact" element={<Contact />} />
         </Routes>
      
     </BrowserRouter>

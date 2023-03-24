@@ -33,7 +33,7 @@ const Menu = ({ menuOpen, setMenuOpen, animation, setAnimation }) => {
              <Link className='menulink'onClick={onClick} to="/about"><li>
                About
             </li></Link>
-            <Link className='menulink'onClick={onClick} to="/about"><li>
+            <Link className='menulink'onClick={onClick} to="/contact"><li>
                Contact
             </li></Link>
             

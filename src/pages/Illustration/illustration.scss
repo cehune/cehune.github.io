@@ -125,7 +125,7 @@
     grid-template-rows: 55% 5% 30%;
    padding-top: 2vh;
     width:80%;
-    height: 120vh;
+    height: 115vh;
     padding-bottom: 0;
     gap: 2vh;
     overflow:hidden;
@@ -160,19 +160,55 @@
 
     }
     img {
-        object-fit: contain;
+       
+        object-fit: cover;
 
         width: 100%;
         height: 100%;
     }
 
-    @media (max-width: 1200px) and (min-width: 801px) {
+    @media (max-width: 1400px) and (min-width: 801px) {
+        height: 90vh;
+        grid-template-columns: 65% 35%;
+        grid-template-rows: auto auto;
+        .gridoneitem1 {
+            grid-column: 1 / span 1;
+            grid-row: 1 / span 1;
+            object-fit: cover;
+          
+    
+        }
+        .gridoneitem2 {
+            grid-column: 2 / span 1;
+            grid-row: 1 / span 1;
+            overflow:hidden;
+            object-fit: cover;
+        }
+        .gridoneitem3 {
+            grid-column: 1 / span 1;
+            grid-row: 2 / span 1;
+            overflow:hidden;
+        }
+        .gridoneitem4 {
+            grid-column: 0;
+            grid-row: 0;
+            overflow:hidden;
+            display: none;
+    
+        }
+        .gridoneitem5 {
+            grid-column: 2 / span 1;
+            grid-row: 2 / span 1;
+            overflow:hidden;
+    
+        }
       }
       @media (max-width: 800px) {
         display: block;
         height: auto;
         img{
             height: auto;
+            object-fit: contain;
         }
     }
     
@@ -185,7 +221,7 @@
     grid-template-rows: 100%;
     padding-top: 5vh;
     width:80%;
-    height: 75vh;
+    height: 70vh;
 
     gap: 2vh;
 overflow: hidden;
@@ -208,18 +244,19 @@ overflow: hidden;
 
     img {
 
-        object-fit: contain;
+        object-fit: cover;
         width: 100%;
         height: 100%;
     }
     @media (max-width: 1200px) and (min-width: 801px) {
-
+        height: 50vh;
   }
   @media (max-width: 800px) {
     display: block;
     height: auto;
     img{
         height: auto;
+        object-fit: contain;
     }
 }
     
