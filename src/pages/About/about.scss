@@ -5,9 +5,7 @@
         display: flex;
        
           align-items: start;
-        @media (min-width: 1201px){
-            height: 100vh;
-        }
+
           @media (max-width: 1200px) and (min-width: 801px) {
             width: 100%;
             flex-direction: column;
@@ -53,14 +51,14 @@
                 
                 h1{
                     font-weight: 400;
-                    font-size:40px;
+                    font-size:50px;
                     font-weight: none;
                     font-family: 'Raleway', sans-serif;
                 }
                 .blurb{
 
-                    font-size:20px;
-                    color: grey;
+                    font-size:35px;
+                    color: rgb(59, 57, 57);
                     font-family: 'Raleway', sans-serif;
                 }
         
@@ -75,15 +73,19 @@
                 .skills{
                     padding-left: 5%;
                     padding-top: 5vh;
+                    padding-bottom: 10vh;
+                }
+                .status{
+                    font-size: 60px;
                 }
                         h2{
-                            font-size: 26px;
+                            font-size: 40px;
                             margin:0;
                             padding-bottom: 10px;
                         }
                         h3{
                             font-family: 'Raleway', sans-serif;
-                            font-size: 16px;
+                            font-size: 25px;
                             margin: 0;
                             padding-bottom: 10px;
                             font-weight: 400;

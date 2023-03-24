@@ -8,24 +8,29 @@ const About = () => {
         <div className='about' id = 'about'> 
             <div className='info'>
 
-            <div className = 'left'> 
+        {  /*<div className = 'left'> 
                 <AnimAbout  className='anim'/>
-                </div>
+    </div>*/}  
                 <div className='right'>
                     <h1>Hi again!</h1>
-                    <p className='blurb'>A little about me, i’m studying 
-                    Mechatronics Engineering, and i'm currently on an internship term. I love drawing, programming, electronics, designing, piano,  and rock climbing!</p>
+                    <p className='blurb'>Thanks for checking out this site. A little about me,
+                     I love drawing, programming, designing, piano, cooking, and rock climbing!
+                     Below are the important lightning round facts about me. </p>
+
+                    <div >
+                        <h2 className='status'>Current Status: Working on Internship at Ford!</h2>
+                    </div>
                     <hr />
                     <div className='edu'>
                         <h2>Education</h2>
                         <h3>University of Waterloo</h3>
                         <h3>Bachelors of Applied Science in Mechatronics Engineering, 2022 - Present</h3>
-                        <h3></h3>
+                        <h3>Grade: 94/100, Deans Honour List</h3>
                     </div>
                     <div className='work'>
                         <h2>Work Experience</h2>
                         <h3>Test Automation Intern @ Ford || Janurary 2023 - Present</h3>
-                        <h3>Computer Vision Team Member @ UWARG || December 2022 - Present</h3>
+                        <h3>Firmware Developer @ UWARG || Janurary 2023 - Present</h3>
                         
                     </div>
                     <div className='skills'>

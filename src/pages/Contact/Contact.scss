@@ -12,7 +12,7 @@
             display:none;
         }
         @media (max-width: 900px) {
-          padding-top: 30px;
+          height: auto;
       }
       
 
@@ -20,8 +20,9 @@
       display: flex;
       align-items: start;
     width: 100%;
-      padding-top: 20vh;;
+      padding-top: 20vh;
     @media (max-width: 900px) {
+      padding-top: 10vh;
       flex-direction: column;
       align-items: center;
       justify-content: center;

@@ -20,7 +20,7 @@ const Menu = ({ menuOpen, setMenuOpen, animation, setAnimation }) => {
     <div className={'menuback page_shift_two ' + ( menuOpen && 'active')}></div>
     <div className={'menuback page_shift_three ' + ( menuOpen && 'active')}></div>
     <div className={'menuback menu ' + ( menuOpen && 'active')}>
-        <h1 className='sideways_name'> celine dongmei chung </h1>
+        <h1 className='sideways_name'> celine chung </h1>
         <ul>
              <Link  className='menulink'onClick={onClick} to="/projects"><li >
                Projects
@@ -30,12 +30,12 @@ const Menu = ({ menuOpen, setMenuOpen, animation, setAnimation }) => {
                 Illustrations
             </li></Link>
 
-             <Link className='menulink'onClick={onClick} to="/about"><li>
+             {/* <Link className='menulink'onClick={onClick} to="/about"><li>
                About
-            </li></Link>
-            <Link className='menulink'onClick={onClick} to="/contact"><li>
+            </li></Link>*/}
+           <Link className='menulink'onClick={onClick} to="/contact"><li>
                Contact
-            </li></Link>
+            </li></Link> 
             
             <li>
                 <a href='https://github.com/mckalechung/mckalechung.github.io/blob/main/public/assets/Resume.pdf' target='blank'> Resume</a>
