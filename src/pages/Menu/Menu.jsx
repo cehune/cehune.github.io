@@ -20,7 +20,7 @@ const Menu = ({ menuOpen, setMenuOpen, animation, setAnimation }) => {
     <div className={'menuback page_shift_two ' + ( menuOpen && 'active')}></div>
     <div className={'menuback page_shift_three ' + ( menuOpen && 'active')}></div>
     <div className={'menuback menu ' + ( menuOpen && 'active')}>
-        <h1 className='sideways_name'> celine chung </h1>
+        <h1 className='sideways_name'> mckale chung </h1>
         <ul>
              <Link  className='menulink'onClick={onClick} to="/projects"><li >
                Projects
