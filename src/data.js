@@ -140,7 +140,22 @@ export const gridtwo = [
         insta: 'https://www.instagram.com/p/Coz77wFJK-s/'
     },
     {
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1106362005218131998/studyu_4.png',
+        insta: 'https://www.instagram.com/p/Cr1u7FkJcy-/'
+    }
+]
+
+export const gridthree = [
+    {
         image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056665808836771860/girl_with_branch_and_dog.png',
         insta: 'https://www.instagram.com/p/CSKQBfIrf_Q/'
+    },
+    {
+        image: "https://cdn.discordapp.com/attachments/689212878200242194/1106362004488335360/study_2_han.png",
+        insta: 'https://www.instagram.com/p/CnBNwSQOv-z/'
+    },
+    {
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1106362005570469978/view.jpg',
+        insta: 'https://www.instagram.com/p/CSYQ4HvAzVN/'
     }
 ]
