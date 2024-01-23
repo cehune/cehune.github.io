@@ -1,6 +1,8 @@
 import React from 'react'
 import { gridtwo } from '../../../data'
 import { gridthree } from '../../../data'
+import { gridfour } from '../../../data'
+
 export const GridTwo = () => {
   return (
     <div className='gridcontainer' id='gallery'>
@@ -41,4 +43,7 @@ export const GridThree = () => {
     </div>
   )
 }
+
+
+
 

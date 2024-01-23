@@ -159,3 +159,28 @@ export const gridthree = [
         insta: 'https://www.instagram.com/p/CSYQ4HvAzVN/'
     }
 ]
+
+
+export const gridfour = [
+    { // layla
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1199419997651484802/layla.png',
+        insta: 'https://www.instagram.com/p/CSKQBfIrf_Q/'
+    },
+    { //lumine 
+        image: "https://cdn.discordapp.com/attachments/689212878200242194/1199419809826357400/lumine.png",
+        insta: 'https://www.instagram.com/p/CnBNwSQOv-z/'
+    },
+
+]
+
+export const gridfive = [
+    { // ganyu
+        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1199420128480202762/ganyu2_no_bord.jpg',
+        insta: 'https://www.instagram.com/p/C0pAXRhAzwo/?img_index=1'
+    },
+    { // sb kindred
+        image: "https://cdn.discordapp.com/attachments/689212878200242194/1199420065284620328/kindred_jpg.jpg",
+        insta: 'https://www.instagram.com/p/CzjalrCgOoB/?img_index=1'
+    },
+
+]

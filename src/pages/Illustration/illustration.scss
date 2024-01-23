@@ -1,9 +1,9 @@
 .illustration{
     background: #1A1A1A;;
     width: 100%;
- 
+    padding-bottom: 10vh;
     .main{
-        height: 100vh;
+        height: 80vh;
         width: 100%;
         overflow: hidden;
         position: relative;
@@ -261,5 +261,123 @@ overflow: hidden;
         object-fit: contain;
     }
 }
+    
+}
+
+
+.gridfour {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 100%;
+    padding-top: 2vh;
+    width:80%;
+    //height: 115vh;
+    
+    gap: 2vh;
+    overflow:hidden;
+    .gridfouritem1 {
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+        object-fit: cover;
+      
+
+    }
+    .gridfouritem2 {
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 1;
+        overflow:hidden;
+        object-fit: cover;
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /*@media (max-width: 1400px) and (min-width: 801px) {
+        height: 90vh;
+        grid-template-columns: 65% 35%;
+        grid-template-rows: auto auto;
+        .gridoneitem1 {
+            grid-column: 1 / span 1;
+            grid-row: 1 / span 1;
+            object-fit: cover;
+          
+    
+        }
+        .gridoneitem2 {
+            grid-column: 2 / span 1;
+            grid-row: 1 / span 1;
+            overflow:hidden;
+            object-fit: cover;
+        }
+      }*/
+      @media (max-width: 800px) {
+        display: block;
+        height: auto;
+        img{
+            height: auto;
+            object-fit: contain;
+        }
+    }
+    
+}
+
+
+.gridfive {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 100%;
+    padding-top: 2vh;
+    width:80%;
+    //height: 115vh;
+    
+    gap: 2vh;
+    overflow:hidden;
+    .gridfiveitem1 {
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+        object-fit: cover;
+      
+
+    }
+    .gridfiveitem2 {
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 1;
+        overflow:hidden;
+        object-fit: cover;
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /*@media (max-width: 1400px) and (min-width: 801px) {
+        height: 90vh;
+        grid-template-columns: 65% 35%;
+        grid-template-rows: auto auto;
+        .gridoneitem1 {
+            grid-column: 1 / span 1;
+            grid-row: 1 / span 1;
+            object-fit: cover;
+          
+    
+        }
+        .gridoneitem2 {
+            grid-column: 2 / span 1;
+            grid-row: 1 / span 1;
+            overflow:hidden;
+            object-fit: cover;
+        }
+      }*/
+      @media (max-width: 800px) {
+        display: block;
+        height: auto;
+        img{
+            height: auto;
+            object-fit: contain;
+        }
+    }
     
 }

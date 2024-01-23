@@ -3,6 +3,8 @@ import './illustration.scss'
 import {illus_col_1, illus_col_2} from "../../data";
 import { GridOne } from './Grids/GridOne';
 import { GridThree, GridTwo } from './Grids/GridTwo';
+import { GridFour } from './Grids/GridFour';
+import { GridFive } from './Grids/GridFive';
 const Illustration = () => {
     const col_1 = illus_col_1;
     const col_2 = illus_col_2;
@@ -17,7 +19,10 @@ const Illustration = () => {
             </div>
         
         </div>
-            <div className='grids'> <GridTwo />
+            <div className='grids'> 
+            <GridFive />
+            <GridFour />
+            <GridTwo />
             <GridOne />
             <GridThree /></div>
 
