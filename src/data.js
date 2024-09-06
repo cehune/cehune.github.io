@@ -70,7 +70,7 @@ export const featuredProjectsJSON =[
 export const illus_col_1 = [
    
     {
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056387530402050078/fish_parade.png',
+        image: 'https://github.com/cehune/cehune.github.io/blob/main/public/assets/fish_parade.png',
         insta: 'https://www.instagram.com/p/CebjmJGJXMA/'
     },
     {
@@ -97,7 +97,7 @@ export const illus_col_2 = [
         insta: 'https://www.instagram.com/p/CYdLkCwLZ4Q/'
     },
     {
-        image: 'https://media.discordapp.net/attachments/689212878200242194/1056387521451405403/kindred.png?width=468&height=584',
+        image: 'https://github.com/cehune/cehune.github.io/blob/main/public/assets/kindred.png',
         insta: 'https://www.instagram.com/p/CZYKsBQlgS0/'
     },
     {
