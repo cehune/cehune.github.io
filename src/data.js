@@ -74,88 +74,88 @@ export const illus_col_1 = [
         insta: 'https://www.instagram.com/p/CebjmJGJXMA/'
     },
     {
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056665809231032390/Linkle_2.png',
+        image: 'https://github.com/cehune/cehune.github.io/blob/main/public/assets/linkle.png',
         insta: 'https://www.instagram.com/p/CNTJrcyhl3l/'
     },
     {
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056666965466423306/cranes_girl.png',
+        image: 'https://github.com/cehune/cehune.github.io/blob/main/public/assets/cranes.png',
         insta: 'https://www.instagram.com/p/CT-jIh2hJXE/'
     },
 
 ]
 export const illus_col_2 = [
     {
-        image: "https://cdn.discordapp.com/attachments/689212878200242194/1082462758341181491/IMG_20230218_120612_744.jpg",
+        image: "https://github.com/cehune/cehune.github.io/blob/main/public/assets/kindred2.png",
         insta: 'https://www.instagram.com/p/Coz77wFJK-s/'
     },
     {
-        image: "https://cdn.discordapp.com/attachments/689212878200242194/1059898636110151880/fish_parade_1.png",
+        image: "https://github.com/cehune/cehune.github.io/blob/main/public/assets/fish%20parade%201.png",
         insta: 'https://www.instagram.com/p/CmzTNDPpiZs/'
     },
     {
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056387511066308608/winter_girl.png',
+        image: 'https://github.com/cehune/cehune.github.io/blob/main/public/assets/winter_girl.png',
         insta: 'https://www.instagram.com/p/CYdLkCwLZ4Q/'
     },
     {
         image: 'https://github.com/cehune/cehune.github.io/blob/main/public/assets/kindred.png',
         insta: 'https://www.instagram.com/p/CZYKsBQlgS0/'
     },
-    {
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056665808836771860/girl_with_branch_and_dog.png',
+    { //winter girl w branch
+        image: 'https://github.com/cehune/cehune.github.io/blob/main/public/assets/winter1.png',
         insta: 'https://www.instagram.com/p/CSKQBfIrf_Q/'
     }
 ]
 
 
 export const gridone = [
-    {
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056387530402050078/fish_parade.png',
+    { //fish parade 1
+        image: 'https://github.com/cehune/cehune.github.io/blob/main/public/assets/fish_parade.png',
         insta: 'https://www.instagram.com/p/CebjmJGJXMA/'
     },
-    {
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056666965466423306/cranes_girl.png',
+    { //cranes
+        image: 'https://github.com/cehune/cehune.github.io/blob/main/public/assets/cranes.png',
         insta: 'https://www.instagram.com/p/CT-jIh2hJXE/'
     },
-    {
-        image: "https://cdn.discordapp.com/attachments/689212878200242194/1059898636110151880/fish_parade_1.png",
+    { //fishparade2
+        image: "https://github.com/cehune/cehune.github.io/blob/main/public/assets/fish%20parade%201.png",
         insta: 'https://www.instagram.com/p/CmzTNDPpiZs/'
     },
-    {
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1085342328941707284/lucina.png',
+    { //lucina
+        image: 'https://github.com/cehune/cehune.github.io/blob/main/public/assets/lucina2.png',
         insta: 'https://www.instagram.com/p/CQpM73qhyJZ/'
     },
     {
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056387511066308608/winter_girl.png',
+        image: 'https://github.com/cehune/cehune.github.io/blob/main/public/assets/winter_girl.png',
         insta: 'https://www.instagram.com/p/CYdLkCwLZ4Q/'
     }
 ]
 
 export const gridtwo = [
-    {
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1085690591653929131/Night_Blossom_Kindred_-_dreary.beloved_commission.png',
+    { //sb kindred 1
+        image: 'https://github.com/cehune/cehune.github.io/blob/main/public/assets/kindred.png',
         insta: 'https://www.instagram.com/p/CZYKsBQlgS0/'
     },
-    {
+    { //alchol
         image: "https://cdn.discordapp.com/attachments/689212878200242194/1082462758341181491/IMG_20230218_120612_744.jpg",
         insta: 'https://www.instagram.com/p/Coz77wFJK-s/'
     },
     {
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1106362005218131998/studyu_4.png',
+        image: 'https://github.com/cehune/cehune.github.io/blob/main/public/assets/studyu%204.png',
         insta: 'https://www.instagram.com/p/Cr1u7FkJcy-/'
     }
 ]
 
 export const gridthree = [
     {
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056665808836771860/girl_with_branch_and_dog.png',
+        image: 'https://github.com/cehune/cehune.github.io/blob/main/public/assets/winter1.png',
         insta: 'https://www.instagram.com/p/CSKQBfIrf_Q/'
     },
     {
-        image: "https://cdn.discordapp.com/attachments/689212878200242194/1106362004488335360/study_2_han.png",
+        image: "https://github.com/cehune/cehune.github.io/blob/main/public/assets/study%202%20han.png",
         insta: 'https://www.instagram.com/p/CnBNwSQOv-z/'
     },
     {
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1106362005570469978/view.jpg',
+        image: 'https://github.com/cehune/cehune.github.io/blob/main/public/assets/winter3.png',
         insta: 'https://www.instagram.com/p/CSYQ4HvAzVN/'
     }
 ]
@@ -163,11 +163,11 @@ export const gridthree = [
 
 export const gridfour = [
     { // layla
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1199419997651484802/layla.png',
+        image: 'https://github.com/cehune/cehune.github.io/blob/main/public/assets/layla.png',
         insta: 'https://www.instagram.com/p/CSKQBfIrf_Q/'
     },
     { //lumine 
-        image: "https://cdn.discordapp.com/attachments/689212878200242194/1199419809826357400/lumine.png",
+        image: "https://github.com/cehune/cehune.github.io/blob/main/public/assets/lumine.png",
         insta: 'https://www.instagram.com/p/CnBNwSQOv-z/'
     },
 
@@ -175,11 +175,11 @@ export const gridfour = [
 
 export const gridfive = [
     { // ganyu
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1199420128480202762/ganyu2_no_bord.jpg',
+        image: 'https://github.com/cehune/cehune.github.io/blob/main/public/assets/ganyu2%20no%20bord.jpg',
         insta: 'https://www.instagram.com/p/C0pAXRhAzwo/?img_index=1'
     },
     { // sb kindred
-        image: "https://cdn.discordapp.com/attachments/689212878200242194/1199420065284620328/kindred_jpg.jpg",
+        image: "https://github.com/cehune/cehune.github.io/blob/main/public/assets/kindred2.png",
         insta: 'https://www.instagram.com/p/CzjalrCgOoB/?img_index=1'
     },
 
