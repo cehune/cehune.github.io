@@ -16,7 +16,7 @@ const Intro = () => {
 
       <div className="wrapper">
         <h3> illustrator and developer ||</h3>
-        <h1 className='hello'>  MCKALE CHUNG </h1>
+        <h1 className='hello'>  CELIN CHUNG </h1>
         <hr />
         
         

@@ -49,14 +49,11 @@ const Contact = () => {
             </div>
         </div>
         <div className="footer">
-            <h3 className='quote'> mckale chung</h3>
+            <h3 className='quote'> celin chung</h3>
             <hr/> 
-            <div className="resumeContainer"> <a className='resume' href='https://github.com/mckalechung/mckalechung.github.io/blob/main/public/assets/Mckale%20Chung%20Resume%20August%202022.pdf' target='_blank'> resume</a></div>
             <div className="icons">
                 <a className='icon'href='mailto: machung@uwaterloo.ca' target='_blank'><EmailIcon  style = {{color:'white', fontSize: '4vh', padding: '2vh'}} /> </a>
                 <a className='icon'href='https://github.com/cehune' target='_blank'><GitHubIcon  style = {{color:'white', fontSize: '4vh', padding: '2vh'}}/></a>
-                <a className='icon'href='https://www.linkedin.com/in/cchung7/' target='_blank'><LinkedInIcon  style = {{color:'white', fontSize: '4vh', padding: '2vh'}}/></a>
-
             </div>
         </div>
     </div>

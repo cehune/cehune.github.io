@@ -5,7 +5,7 @@ export const featuredProjectsJSON =[
         description: "Full-stack marine zoology site with custom REST API",
         tools: "MongoDB, Express, NodeJS, ReactJS, Google Cloud",
         image: "https://cdn.discordapp.com/attachments/689212878200242194/1082440722151645244/image.png",
-        github: 'https://github.com/mckalechung/wayward-aquarium'
+        github: 'https://github.com/cehune/wayward-aquarium'
     },
     {
         id:5, 
@@ -13,7 +13,7 @@ export const featuredProjectsJSON =[
         description: "Full Stack site displaying user heartbeat and emotions",
         tools: "Python. OpenCV. Arduino, MERN",
         image: "https://media.discordapp.net/attachments/1068217098721050635/1074793563239481494/20230211_043609.jpg?width=458&height=611",
-        github: 'https://github.com/mckalechung/CIFAR-10-Image-Classifier'
+        github: 'https://github.com/cehune/CIFAR-10-Image-Classifier'
     },
     {
         id:5, 
@@ -21,7 +21,7 @@ export const featuredProjectsJSON =[
         description: "Generative audio and visual artpiece responding to live audio data",
         tools: "MongoDB, Express, NodeJS, ReactJS, Google Cloud",
         image: "https://cdn.discordapp.com/attachments/689212878200242194/1082450252952522822/222864384-a3468283-53db-4e31-912c-23f320ca1f52.png",
-        github: 'https://github.com/mckalechung/wayward-aquarium'
+        github: 'https://github.com/cehune/wayward-aquarium'
     },
     {
         id:5, 
@@ -29,7 +29,7 @@ export const featuredProjectsJSON =[
         description: "Image Classifier reaching a accuracy of 75%",
         tools: "Python, PyTorch, MatPlotlib",
         image: "https://cdn.discordapp.com/attachments/689212878200242194/1056233711416377414/image.png",
-        github: 'https://github.com/mckalechung/CIFAR-10-Image-Classifier'
+        github: 'https://github.com/cehune/CIFAR-10-Image-Classifier'
     },
     {
         id:4, 
@@ -37,7 +37,7 @@ export const featuredProjectsJSON =[
         description: "LegoEV3 Robot which rescues patients in extreme environments",
         tools: "C / C++",
         image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056230897541709914/IMG_4401_1.jpg',
-        github: 'https://github.com/mckalechung/Canadian-Assistive-Rescue-Prototype-Robot'
+        github: 'https://github.com/cehune/Canadian-Assistive-Rescue-Prototype-Robot'
     },
     {
         id:3, 
@@ -45,7 +45,7 @@ export const featuredProjectsJSON =[
         description: "Front End Marine Zoology site taking data from FishWatch",
         tools: "React",
         image: 'https://cdn.discordapp.com/attachments/689212878200242194/1006305336694681721/unknown.png',
-        github: 'https://github.com/mckalechung/Wayward-Zoo'
+        github: 'https://github.com/cehune/Wayward-Zoo'
     },
     {
         id:2, 
@@ -53,7 +53,7 @@ export const featuredProjectsJSON =[
         description: "Google landing page clone with search and results for images, news, videos",
         tools: "React",
         image: 'https://user-images.githubusercontent.com/71574223/174509880-0d1ec96c-6bf5-47d2-ac9b-b9ba033b2c81.png',
-        github: 'https://github.com/mckalechung/Google-Mockup'
+        github: 'https://github.com/cehune/Google-Mockup'
     },
     {
         id:1, 
@@ -61,7 +61,7 @@ export const featuredProjectsJSON =[
         description: "Song genre classifier model, based on Spotify data",
         tools: "Python, Pandas",
         image: 'https://digital.hbs.edu/platform-digit/wp-content/uploads/sites/2/2020/04/spotify-logo-1920x1080-2.jpg',
-        github: 'https://github.com/mckalechung/Spotify-Data-Exploration-and-Analysis-to-Predict-Song-Genres'
+        github: 'https://github.com/cehune/Spotify-Data-Exploration-and-Analysis-to-Predict-Song-Genres'
     }
     
 

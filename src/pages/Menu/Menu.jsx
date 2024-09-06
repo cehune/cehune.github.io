@@ -20,7 +20,7 @@ const Menu = ({ menuOpen, setMenuOpen, animation, setAnimation }) => {
     <div className={'menuback page_shift_two ' + ( menuOpen && 'active')}></div>
     <div className={'menuback page_shift_three ' + ( menuOpen && 'active')}></div>
     <div className={'menuback menu ' + ( menuOpen && 'active')}>
-        <h1 className='sideways_name'> mckale chung </h1>
+        <h1 className='sideways_name'> celin chung </h1>
         <ul>
              <Link  className='menulink'onClick={onClick} to="/projects"><li >
                Projects
@@ -37,12 +37,9 @@ const Menu = ({ menuOpen, setMenuOpen, animation, setAnimation }) => {
                Contact
             </li></Link> 
             
-            <li>
-                <a href='https://github.com/mckalechung/mckalechung.github.io/blob/main/public/assets/Resume.pdf' target='blank'> Resume</a>
-            </li>
             <div className="icons">
-            <a className='icon' href='mailto: mckale.chung@gmail.com' target='_blank'><EmailIcon  style = {{color:'white', fontSize: '6vh'}} /> </a>
-                <a className='icon' href='https://github.com/mckalechung' target='_blank'><GitHubIcon style = {{color:'white', fontSize: '6vh'}}/></a>
+            <a className='icon' href='mailto: chungceline7@gmail.com' target='_blank'><EmailIcon  style = {{color:'white', fontSize: '6vh'}} /> </a>
+                <a className='icon' href='https://github.com/cehune' target='_blank'><GitHubIcon style = {{color:'white', fontSize: '6vh'}}/></a>
                 <a className='icon' href='https://www.linkedin.com/in/cchung7' target='_blank'><LinkedInIcon  style = {{color:'white', fontSize: '6vh'}}/></a>
             </div>
         </ul>
