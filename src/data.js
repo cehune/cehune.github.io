@@ -4,7 +4,7 @@ export const featuredProjectsJSON =[
         title: 'WAYWARD AQUARIUM',
         description: "Full-stack marine zoology site with custom REST API",
         tools: "MongoDB, Express, NodeJS, ReactJS, Google Cloud",
-        image: "https://cdn.discordapp.com/attachments/689212878200242194/1082440722151645244/image.png",
+        image: "https://user-images.githubusercontent.com/71574223/222857400-5edab2e2-30b1-4114-9787-b350319c43e0.png",
         github: 'https://github.com/cehune/wayward-aquarium'
     },
     {
@@ -13,22 +13,22 @@ export const featuredProjectsJSON =[
         description: "Full Stack site displaying user heartbeat and emotions",
         tools: "Python. OpenCV. Arduino, MERN",
         image: "https://media.discordapp.net/attachments/1068217098721050635/1074793563239481494/20230211_043609.jpg?width=458&height=611",
-        github: 'https://github.com/cehune/CIFAR-10-Image-Classifier'
+        github: 'https://github.com/CoolDude937/ECG'
     },
     {
         id:5, 
         title: 'YOUR KALEIDOSCOPE',
         description: "Generative audio and visual artpiece responding to live audio data",
         tools: "MongoDB, Express, NodeJS, ReactJS, Google Cloud",
-        image: "https://cdn.discordapp.com/attachments/689212878200242194/1082450252952522822/222864384-a3468283-53db-4e31-912c-23f320ca1f52.png",
-        github: 'https://github.com/cehune/wayward-aquarium'
+        image: "https://user-images.githubusercontent.com/71574223/222864384-a3468283-53db-4e31-912c-23f320ca1f52.png",
+        github: 'https://github.com/cehune/your-kaleidoscope'
     },
     {
         id:5, 
         title: 'CIFAR-10 IMAGE CLASSIFIER',
         description: "Image Classifier reaching a accuracy of 75%",
         tools: "Python, PyTorch, MatPlotlib",
-        image: "https://cdn.discordapp.com/attachments/689212878200242194/1056233711416377414/image.png",
+        image: "https://user-images.githubusercontent.com/71574223/222857400-5edab2e2-30b1-4114-9787-b350319c43e0.png",
         github: 'https://github.com/cehune/CIFAR-10-Image-Classifier'
     },
     {
@@ -36,7 +36,7 @@ export const featuredProjectsJSON =[
         title: 'RESCUE ROBOT',
         description: "LegoEV3 Robot which rescues patients in extreme environments",
         tools: "C / C++",
-        image: 'https://cdn.discordapp.com/attachments/689212878200242194/1056230897541709914/IMG_4401_1.jpg',
+        image: 'https://user-images.githubusercontent.com/71574223/202064548-eb99529f-b643-4678-8e70-7aa5af253d09.png',
         github: 'https://github.com/cehune/Canadian-Assistive-Rescue-Prototype-Robot'
     },
     {
