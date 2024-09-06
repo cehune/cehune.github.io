@@ -20,7 +20,10 @@ const Illustration = () => {
         
         </div>
             <div className='grids'> 
-
+            <GridFive />
+            <GridFour />
+            <GridTwo />
+            <GridOne />
             <GridThree /></div>
 
         </div>
